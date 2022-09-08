@@ -39,8 +39,14 @@
     background-color: #F5F1EF;
 }
 
+.promo__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .social_icon {
-    margin: 0 7.5px;
+    margin: 0 6px;
 }
 
 .nav__menu>a:link {
