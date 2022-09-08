@@ -183,3 +183,25 @@
 .black-card-text {
     color: #fff;
 }
+
+
+/*SECTION-WHY-ADOPT-FROM-US*/
+
+
+.adopt-from-us-header-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -.03em;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+.adopt-from-us-header-line {
+    width: 35px;
+    height: 3px;
+    display: block;
+    margin: 0 auto;
+    background-color: #f4b51e;
+}
