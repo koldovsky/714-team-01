@@ -64,3 +64,122 @@
 .nav__menu>a:active {
     color: #f4b51e;
 }
+
+/* SECTION-OUR-HISTORY */
+.our-history {    
+    background-color: #222;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.our-history-header {
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.our-history-header-title{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -.03em;
+    color: #fff;
+}
+
+.our-history-horizontal-line {
+    width: 35px;
+    height: 3px;
+    background-color: #f4b51e;
+}
+
+.our-history-header-text {
+    width: 870px;
+    font-size: 16px;  
+    line-height: 1.65;
+    color: rgba(240, 240, 240, 0.72);
+}
+
+.our-history-cards {
+    height: 1330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.our-history-card {
+    padding: 45px 80px;
+}
+
+.white-card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.black-card {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-image {
+    width: 505px;
+    height: 330px;
+}
+.card-1 {
+    background-image: url(/img/our-history-card-1.png);
+    background-size: cover;
+    background-position-x: right;
+}
+.card-2 {
+    background-image: url(/img/our-history-card-2.png);
+    background-size: cover;
+}
+.card-3 {
+    background-image: url(/img/our-history-card-3.png);
+    background-size: cover;
+    background-position-x: right;
+}
+
+.our-history-card-content {
+    padding: 45px 80px;
+    width: 345px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.our-history-card-month {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.7;
+    color: rgba(97, 100, 112, 0.55);
+}
+.black-card-month {
+    color: rgba(247, 247, 247, 0.59);
+}
+.our-history-card-year {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 1.7;
+    color: #141414;
+}
+.black-card-year {
+    color: #fff;
+}
+.card-horizontal-line {
+    height: 1px;
+    background-color: rgba(97, 100, 112, 0.3);
+}
+
+.our-history-card-text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #616470;
+}
+.black-card-text {
+    color: #fff;
+}
