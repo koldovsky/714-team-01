@@ -23,8 +23,7 @@
     align-items: center;    
     padding: 40px 0 50px 0;
     background: url('../img/bg/hasky-background-backside-title.webp') center center/cover no-repeat;
-    background-attachment: fixed;
-    background-color: var(--color-promo-section-bg);
+    background-attachment: fixed;    
 }
 
 .promo__img {
@@ -34,7 +33,7 @@
 }
 
 .social_icon {
-    margin: 0 6px;
+    margin: 0 7.5px;
 }
 
 .nav__menu>a:link {
