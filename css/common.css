@@ -17,3 +17,8 @@
     --color-month-title: rgba(97,100,112,0.55);
     --color-date-title: #619ec2;
 }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}

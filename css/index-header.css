@@ -1,0 +1,51 @@
+.header {
+    height: 107px;
+    background-color: var(--color-promo-section-bg);
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 15px;
+}
+
+.menu__item {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 7.5px;
+}
+
+.header__banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 40px 0 50px 0;
+    background: url('../img/bg/hasky-background-backside-title.webp') center center/cover no-repeat;
+    background-attachment: fixed;
+    background-color: var(--color-promo-section-bg);
+}
+
+.promo__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_icon {
+    margin: 0 6px;
+}
+
+.nav__menu>a:link {
+    color: var(--color-dark);
+}
+.nav__menu>a:hover {
+    color: var(--color-main);
+}
+.nav__menu>a:visited {
+    color: var(--color-dark);
+}
+.nav__menu>a:active {
+    color: var(--color-main-hover);
+}
