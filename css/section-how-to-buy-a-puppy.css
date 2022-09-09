@@ -1,0 +1,20 @@
+.plate {
+    width: 30%;
+    float: left;
+}
+
+.plate-margin {
+    margin-right: 5%;
+}
+
+.text-red {
+    color: var(--color-accent);
+}
+
+.text-blue {
+    color: var(--color-secondary);
+}
+
+.text-yellow {
+    color: var(--color-main);
+}
