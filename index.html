@@ -151,7 +151,7 @@
                     <div class="our-team-horizontal-line"></div>
                     <!-- Worker 1 -->
                     <div class="our-team-cards">
-                        <img width="170px" height="170px" class="our-team-card-image" src="img/our-team-worker-1.png"
+                        <img width="170" height="170" class="our-team-card-image" src="img/our-team-worker-1.png"
                             alt="Susie Hunt">
                         <h3 class="worker-name">Susie Hunt</h3>
                         <p class="about-worker">
@@ -160,8 +160,8 @@
                         </p>
                         <!-- Worker 2 -->
                         <div class="our-team-cards">
-                            <img width="170px" height="170px" class="our-team-card-image"
-                                src="img/our-team-worker-2.png" alt="David Rodgers">
+                            <img width="170" height="170" class="our-team-card-image" src="img/our-team-worker-2.png"
+                                alt="David Rodgers">
                             <h3 class="worker-name">David Rodgers</h3>
                             <p class="about-worker">
                                 David opened the Happy Husky kennel 10 years ago with a great love for animals.
@@ -228,9 +228,9 @@
             </div>
         </section>
 
-        <!--SECTION-OUR-PUPPIES-&-ADULTS-->
+        <!-- SECTION-OUR-PUPPIES-AND-ADULTS -->
         <section id="dogs" class="our-puppies-and-adults">
-            <div class="container">
+            <div class="our-puppies-and-adults__container">
                 <div class="our-puppies-and-adults__text">
                     <h2 class="our-puppies-and-adults__title">Our Puppies & Adults</h2>
                     <div class="orange-horizontal-line"></div>
@@ -238,9 +238,19 @@
                         pack,
                         don't hesitate to contact us!</p>
                 </div>
-
-                <div id="carousel" class="carousel">
-                    <div class="carousel__item">
+                <div class="carousel">
+                    <button class="carousel__button carousel__button-left">
+                        <!-- <img src="img/left-arrow" alt="Left-arrow"> -->
+                        <svg class="arrow-svg_3ht" viewBox="0 0 30 30">
+                            <defs>
+                                <path
+                                    d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                                    id="a-1662733659551"></path>
+                            </defs>
+                            <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662733659551"></use>
+                        </svg>
+                    </button>
+                    <div class="carousel__item-containar">
                         <article class="carousel__card">
                             <img class="carousel__image" src="img/husky-male.webp" alt="Gray husky" width="500">
                             <h3 class="carousel__image-text">Donnie, male</h3>
@@ -259,18 +269,24 @@
                             <img class="carousel__image" src="img/husky-female.webp" alt="Red husky" width="500">
                             <h3 class="carousel__image-text">Ulva, male</h3>
                         </article>
-                        <button class="carousel__left-arrow carousel__button">Previus</button>
-                        <button class="carousel__right-arrow carousel__button">Next</button>
-
-                        <!-- <a class="carousel__left-arrow" href="#carousel" role="button" data-slide="prev">Previus</a>
-                        <a class="carousel__right-arrow" href="#carousel" role="button" data-slide="next">Next</a> -->
                     </div>
-                    <div class="carousel__indicators">
-                        <button type="button"></button>
-                        <button type="button"></button>
-                        <button type="button"></button>
-                        <button type="button"></button>
-                    </div>
+                    <button class="carousel__button carousel__button-right">
+                        <!-- <img src="img/right-arrow" alt="Right-arrow"> -->
+                        <svg class="arrow-svg_3ht" viewBox="0 0 30 30">
+                            <defs>
+                                <path
+                                    d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                                    id="a-1662734681278"></path>
+                            </defs>
+                            <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662734681278"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="carousel__nav">
+                    <button class="carousel__indicators"></button>
+                    <button class="carousel__indicators"></button>
+                    <button class="carousel__indicators"></button>
+                    <button class="carousel__indicators"></button>
                 </div>
 
 
@@ -279,7 +295,29 @@
 
 
         <!--SECTION-HOW-TO-BUY-A-PUPPY-->
-
+        <section>
+            <div class="how-to-buy-a-puppy_text">
+                <h2>How to Bue a Puppy</h2>
+                <div class="line"></div>
+                <p>Before you buy a husky, please, make sure that you can keep it and get
+                    familiar with the main features of this breed.</p>
+            </div>
+            <div class="plate plate-margin">
+                <h3><span class="text-yellow">01.</span> Contact us</h3>
+                <div class="line"></div>
+                <p>Tell us about yourself, and we will offer you puppies from the expected litter.</p>
+            </div>
+            <div class="plate plate-margin">
+                <h3><span class="text-blue">02.</span> Choose a Puppy & Pay</h3>
+                <div class="line"></div>
+                <p>Come to Happy Husky kennel and choose a puppy you like the most!</p>
+            </div>
+            <div class="plate">
+                <h3><span class="text-red">03.</span> Sign a Contract</h3>
+                <div class="line"></div>
+                <p>It obligates you to return the husky to us if you cannot continue to care for it.</p>
+            </div>
+        </section>
         <!--SECTION-WHY-ADOPT-FROM-US-->
 
         <section class="adopt-from-us">
@@ -422,10 +460,33 @@
             <div>
                 <h1>Want to buy a puppy?</h1>
                 <p>Consider adopting a husky!</p>
-                <input type="text" name="input" value="CONTACT US">
+                <div>
+                    <a href="#contacts">Contact us</a>
+                </div>
             </div>
         </section>
         <!--SECTION-GALLERY-->
+        <section class="gallery">
+            <div>
+                <h1>Gallery</h1>
+                <p>Huskies are great companions and faithful friends. They are smart and energetic and can bring 150% of
+                    joy to your life!</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="img/snow_husky.png" alt="Husky" width="500">
+                </div>
+                <div class="column">
+                    <img src="img/husky-mountains.png" alt="Mountains" width="500">
+                </div>
+                <div class="column">
+                    <img src="img/husky-owner.png" alt="Husky with owner" width="500">
+                </div>
+                <div class="column">
+                    <img src="img/two-huskies.png" alt="Two huskies" width="500">
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
