@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    --color-main: #f4b51e;
+    --color-main-hover: #D5990A;
+    --color-accent: #F82764;
+    --color-secondary: #619EC2;
+    --color-dark: #222;
+    --color-promo-section-bg: #F5F1EF;
+    --color-text-on-dark: #B6B6B6;
+    --color-text-on-light: #616470;
+    --color-month-title: rgba(97,100,112,0.55);
+    --color-date-title: #619ec2;
+}
