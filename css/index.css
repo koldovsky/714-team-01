@@ -1,5 +1,7 @@
 @import url(common.css);
-@import url(index-header.css);
+@import url(index-header.css); /*Anatoliy*/
+@import url(breed-selector.css);
 @import url(section-our-history.css);
 @import url(section-want-to-buy-a-puppy.css);
 @import url(section-want-to-buy-a-puppy.css);
+@import url(section-how-to-buy-a-puppy.css);
