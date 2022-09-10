@@ -51,16 +51,16 @@
     height: 350px;
 }
 .card-1 {
-    background-image: url(/img/our-history-card-1.png);
+    background: url(../img/our-history-card-1.1.png) center center/cover no-repeat;
     background-size: cover;
     background-position-x: right;
 }
 .card-2 {
-    background-image: url(/img/our-history-card-2.png);
+    background: url(../img/our-history-card-2.2.png) center center/cover no-repeat;
     background-size: cover;
 }
 .card-3 {
-    background-image: url(/img/our-history-card-3.png);
+    background: url(../img/our-history-card-3.3.png) center center/cover no-repeat;
     background-size: cover;
     background-position-x: right;
 }
