@@ -34,7 +34,7 @@
 }
 
 .our-history-cards {
-    height: 1330px;
+    height: 1380px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -58,7 +58,7 @@
 
 .card-image {
     width: 505px;
-    height: 330px;
+    height: 350px;
 }
 .card-1 {
     background-image: url(/img/our-history-card-1.png);
@@ -77,8 +77,8 @@
 
 .our-history-card-content {
     padding: 45px 80px;
-    width: 345px;
-    height: 240px;
+    width: 505px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
