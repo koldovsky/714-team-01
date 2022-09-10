@@ -1,7 +1,7 @@
 .our-history {    
-    background-color: #222;
+    background-color: var(--color-dark);
     padding-top: 100px;
-    padding-bottom: 120px;
+    padding-bottom: 120px;  
 }
 
 .our-history-header {
@@ -17,20 +17,20 @@
     font-weight: 800;
     line-height: 1.3;
     letter-spacing: -.03em;
-    color: #fff;
+    color: var(--color-text-light);
 }
 
 .our-history-horizontal-line {
     width: 35px;
     height: 3px;
-    background-color: #f4b51e;
+    background-color: var(--color-main);
 }
 
 .our-history-header-text {
     width: 870px;
     font-size: 16px;  
     line-height: 1.65;
-    color: rgba(240, 240, 240, 0.72);
+    color: var(--color-text-on-dark);
 }
 
 .our-history-cards {
@@ -44,14 +44,14 @@
 }
 
 .white-card {
-    background-color: #fff;
+    background-color: var(--color-bg-light);
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 
 .black-card {
-    background-color: #000;
+    background-color: var(--color-bg-dark);
     display: flex;
     justify-content: space-between;
 }
@@ -88,30 +88,31 @@
     font-size: 15px;
     font-weight: bold;
     line-height: 1.7;
-    color: rgba(97, 100, 112, 0.55);
+    color: var(--color-month-title);
 }
 .black-card-month {
-    color: rgba(247, 247, 247, 0.59);
+    color: var(--color-month-title-on-dark);
 }
 .our-history-card-year {
     font-size: 44px;
     font-weight: bold;
     line-height: 1.7;
-    color: #141414;
+    color: var(--color-dark);
 }
 .black-card-year {
-    color: #fff;
+    color: var(--color-text-light);
 }
+
 .card-horizontal-line {
-    height: 1px;
-    background-color: rgba(97, 100, 112, 0.3);
+    height: 1px; /* bilyk - need change - bilyk */
+    background-color: rgba(97, 100, 112, 0.3); /* bilyk - need change - bilyk */
 }
 
 .our-history-card-text {
     font-size: 15px;
     line-height: 1.7;
-    color: #616470;
+    color: var(--color-text-on-light);
 }
 .black-card-text {
-    color: #fff;
+    color: var(--color-text-light);
 }
