@@ -16,12 +16,6 @@
     color: var(--color-text-light);
 }
 
-.our-history-horizontal-line {
-    width: 35px;
-    height: 3px;
-    background-color: var(--color-main);
-}
-
 .our-history-header-text {
     width: 870px;
     font-size: 16px;  
