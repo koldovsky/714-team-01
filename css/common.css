@@ -16,16 +16,16 @@
     --color-text-on-light: #616470;
     --color-month-title-on-light: rgba(97,100,112,0.55);    
     --color-date-title: #619ec2;
-
     --color-text-light: #fff;
     --color-bg-light: #fff;
     --color-bg-dark: #000;
     --color-month-title-on-dark: rgba(247, 247, 247, 0.59);
+    scroll-behavior: smooth;
 }
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: auto;
 }
 
 h2 {
@@ -40,4 +40,9 @@ h2 {
     width: 35px;
     height: 3px;
     background-color: var(--color-main);
+}
+
+img {
+    display: block;
+    width: 100%;
 }
