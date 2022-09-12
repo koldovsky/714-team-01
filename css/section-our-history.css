@@ -1,15 +1,29 @@
-.our-history {    
+.our-history { 
     background-color: var(--color-dark);
     padding-top: 100px;
-    padding-bottom: 120px;  
+    padding-bottom: 120px;   
+}
+@media (max-width: 1280px) {
+    .our-history {
+        padding-top: 80px;
+        padding-bottom: 100px;  
+    }
+}
+@media (max-width: 992px) {
+    .our-history {
+        padding-top: 70px;
+        padding-bottom: 80px; 
+    }
+}
+@media (max-width: 767px) {
+    .our-history {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
 }
 
 .our-history-header {
-    height: 174px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .our-history-header-title{
@@ -17,63 +31,66 @@
 }
 
 .our-history-header-text {
-    width: 870px;
+    max-width: 870px;
     font-size: 16px;  
     line-height: 1.65;
     color: var(--color-text-on-dark);
 }
 
 .our-history-cards {
-    height: 1380px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
 }
 .our-history-card {
     padding: 45px 80px;
+    margin-top: 30px;
+    display: flex;
 }
 
 .white-card {
     background-color: var(--color-bg-light);
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
 }
 
 .black-card {
     background-color: var(--color-bg-dark);
-    display: flex;
-    justify-content: space-between;
 }
 
-.card-image {
-    width: 505px;
-    height: 350px;
+@media (max-width: 992px) {
+    .white-card,
+    .black-card {
+        display: block;
+    }
 }
-.card-1 {
-    background-image: url(/img/our-history-card-1.png);
-    background-size: cover;
-    background-position-x: right;
+
+.our-history-card-image {
+    min-width: 50%;
+    display: flex;
+    border: 1px solid red;
 }
-.card-2 {
-    background-image: url(/img/our-history-card-2.png);
-    background-size: cover;
+@media (max-width: 992px) {
+    .card-image {
+        min-width: 100%;
+    }
 }
-.card-3 {
-    background-image: url(/img/our-history-card-3.png);
-    background-size: cover;
-    background-position-x: right;
+
+.our-history-card-image img{
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid red;
 }
 
 .our-history-card-content {
     padding: 45px 80px;
-    width: 505px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    border: 1px solid red;
+    /* width: 505px; */
+    /* height: 350px; */
 }
-
+@media (max-width: 767px) {
+    .our-history-card-content {
+        padding: 30px 60px;
+    }
+}
 .our-history-card-month {
     font-size: 15px;
     font-weight: bold;
@@ -94,8 +111,9 @@
 }
 
 .card-horizontal-line {
-    height: 1px; /* bilyk - need change - bilyk */
-    background-color: rgba(97, 100, 112, 0.3); /* bilyk - need change - bilyk */
+    margin: 15px 0;
+    height: 1px;
+    background-color: rgba(97, 100, 112, 0.3);
 }
 
 .our-history-card-text {

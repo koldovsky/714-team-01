@@ -1,0 +1,120 @@
+.huski__breeds-selector {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    position: relative;
+    z-index: 9999999;
+}
+
+.breed-selector-card {
+    width: 390px;
+    height: 328px;
+    text-align: center;
+    padding: 60px 35px 25px 35px;    
+}
+
+.breed-selector-card-first {
+    background-color: var(--color-accent);
+}
+
+.breed-selector-card-second {
+    background-color: var(--color-main);
+}
+
+.breed-selector-card-third {
+    background-color: var(--color-secondary);
+}
+
+.breed-selector-card>h3 {
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--color-text-light);
+    margin-bottom: 20px;
+}
+
+.breed-selector-card>p {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text-light);
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+.breed-selector-card>a {
+    display: inline-block;
+    width: 182px;
+    height: 61px;
+    background-color: var(--color-text-light);
+    color: var(--color-bg-dark);
+    text-decoration: none;
+    padding-block: 20px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.breed-selector-card>a:hover {
+    color: var(--color-text-light);
+    background-color: var(--color-bg-dark);
+}
+.huski__breeds{
+    background-color: var(--color-promo-section-bg);
+}
+/*_______________________________________________________________-*/
+.champions{
+    color: var(--color-text-light);
+    background-color:var(--color-dark);
+    position: relative;
+}
+.haski__champions-header {
+    font-size: 40px;
+    line-height: 52px;
+    padding-bottom: 15px;
+}
+.haski__champions-divider {
+    width: 25px;
+    border: 1px solid var(--color-main);
+    margin-bottom: 15px;
+}
+.huski__champions-preview>p {
+    color: var(--color-text-on-dark);
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.huski__champions-preview-button {
+    padding: 18px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid var(--color-text-on-dark);
+    color: var(--color-text-light);  
+    margin-top: 40px;
+}
+.huski__champions-preview-button:hover{
+    color: var(--color-bg-dark);
+    background-color: var(--color-text-light);
+}
+.huski__champions-card>img {
+    border-radius: 50%;
+}
+.huski__champions-card{
+    text-align: center;  
+    width: 300px;  
+}
+.huski__champions-card-paragraph-bold{    
+    margin: 20px auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+.champions-wrap {
+    display: flex;
+    padding-top: 300px;
+}
+.huski__champions-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.huski__breeds__wrapper{
+    height: 200px;
+}
+

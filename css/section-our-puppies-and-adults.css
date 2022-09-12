@@ -1,0 +1,51 @@
+.our-puppies-and-adults {
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+
+.our-puppies-and-adults__text {
+    font-size: 16px;
+    color: var(--color-text-on-light);
+}
+
+.carousel__image-text {
+    font-size: 24px;
+    color: var(--color-text-on-light);
+}
+
+.carousel__button {
+    /* position: absolute; */
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+
+    width: 30px;
+    height: 30px;
+    
+}
+
+.carousel__nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.carousel__indicators {
+    border: 0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #619ec24d;
+    margin: 0 7px;
+}
+
+.carousel__indicators:hover {
+    cursor: pointer;
+    background: var(--color-secondary);
+}
+
+.current-slide {
+    background: var(--color-secondary)
+}
