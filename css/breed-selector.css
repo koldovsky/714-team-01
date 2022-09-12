@@ -1,0 +1,60 @@
+.huski__breeds-selector {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+
+.breed-selector-card {
+    width: 390px;
+    height: 328px;
+    text-align: center;
+    padding: 60px 35px 25px 35px;    
+}
+
+.breed-selector-card-first {
+    background-color: var(--color-accent);
+}
+
+.breed-selector-card-second {
+    background-color: var(--color-main);
+}
+
+.breed-selector-card-third {
+    background-color: var(--color-secondary);
+}
+
+.breed-selector-card>h3 {
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--color-text-light);
+    margin-bottom: 20px;
+}
+
+.breed-selector-card>p {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text-light);
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+.breed-selector-card>a {
+    display: inline-block;
+    width: 182px;
+    height: 61px;
+    background-color: var(--color-text-light);
+    color: var(--color-bg-dark);
+    text-decoration: none;
+    padding-block: 20px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.breed-selector-card>a:hover {
+    color: var(--color-text-light);
+    background-color: var(--color-bg-dark);
+}
+/*_______________________________________________________________-*/
+.champions{
+    color: var(--color-text-light);
+    background-color:var(--color-dark);
+}
