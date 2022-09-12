@@ -57,4 +57,55 @@
 .champions{
     color: var(--color-text-light);
     background-color:var(--color-dark);
+    position: relative;
+}
+.haski__champions-header {
+    font-size: 40px;
+    line-height: 52px;
+    padding-bottom: 15px;
+}
+.haski__champions-divider {
+    width: 25px;
+    border: 1px solid var(--color-main);
+    margin-bottom: 15px;
+}
+.huski__champions-preview>p {
+    color: var(--color-text-on-dark);
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.huski__champions-preview-button {
+    padding: 18px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid var(--color-text-on-dark);
+    color: var(--color-text-light);  
+    margin-top: 40px;
+}
+.huski__champions-preview-button:hover{
+    color: var(--color-bg-dark);
+    background-color: var(--color-text-light);
+}
+.huski__champions-card>img {
+    border-radius: 50%;
+}
+.huski__champions-card{
+    text-align: center;  
+    width: 300px;  
+}
+.huski__champions-card-paragraph-bold{    
+    margin: 20px auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+.champions-wrap {
+    display: flex;
+    padding-top: 300px;
+}
+.huski__champions-list {
+    display: flex;
+    flex-wrap: wrap;
 }
