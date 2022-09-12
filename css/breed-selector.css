@@ -2,6 +2,8 @@
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
+    position: relative;
+    z-index: 9999999;
 }
 
 .breed-selector-card {
@@ -52,6 +54,9 @@
 .breed-selector-card>a:hover {
     color: var(--color-text-light);
     background-color: var(--color-bg-dark);
+}
+.huski__breeds{
+    background-color: var(--color-promo-section-bg);
 }
 /*_______________________________________________________________-*/
 .champions{
@@ -109,3 +114,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+.huski__breeds__wrapper{
+    height: 150px;
+}
+
