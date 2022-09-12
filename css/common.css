@@ -27,3 +27,16 @@
     width: 1200px;
     margin: 0 auto;
 }
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -.03em;
+}
+
+.line-under-heading {
+    width: 35px;
+    height: 3px;
+    background-color: var(--color-main);
+}
