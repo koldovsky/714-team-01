@@ -6,6 +6,7 @@
 
 :root {
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
     --color-main: #f4b51e;
     --color-main-hover: #D5990A;
     --color-accent: #F82764;
@@ -23,9 +24,15 @@
     --color-month-title-on-dark: rgba(247, 247, 247, 0.59);
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 h2 {
