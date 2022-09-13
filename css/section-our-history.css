@@ -56,19 +56,16 @@
         padding: 25px 35px;
     }
 }
-
 @media (min-width: 480px) {
     .our-history-card {
         padding: 30px 40px;
     }
 }
-
 @media (min-width: 992px) {
     .our-history-card {
         padding: 35px 60px;
     }
 }
-
 @media (min-width: 1280px) {
     .our-history-card {
         padding: 45px 80px;
@@ -77,47 +74,60 @@
 
 .white-card {
     background-color: var(--color-bg-light);
-    display: flex;
-    flex-direction: row-reverse;
+    display: block;
+}
+@media (min-width: 992px) {
+    .white-card {
+        display: flex;
+        flex-direction: row-reverse;    }
 }
 
 .black-card {
     background-color: var(--color-bg-dark);
+    display: block;
 }
-
-@media (max-width: 992px) {
-    .white-card,
+@media (min-width: 992px) {
     .black-card {
-        display: block;
+        display: flex;
     }
 }
 
 .our-history-card-image {
-    min-width: 50%;
+    min-width: 100%;
     display: flex;
-    border: 1px solid red;
 }
-@media (max-width: 992px) {
-    .card-image {
-        min-width: 100%;
+@media (min-width: 992px) {
+    .our-history-card-image {
+        min-width: 50%;
     }
 }
 
 .our-history-card-image img{
     width: 100%;
     object-fit: cover;
-    border: 1px solid red;
 }
 
 .our-history-card-content {
-    padding: 45px 80px;
-    border: 1px solid red;
-    /* width: 505px; */
-    /* height: 350px; */
+    padding: 25px 20px;
 }
-@media (max-width: 767px) {
+@media (min-width: 339px) {
+    .our-history-card-content {
+        padding: 30px 30px;
+    }
+}
+@media (min-width: 480px) {
+    .our-history-card-content {
+        padding: 30px 40px;
+    }
+}
+@media (min-width: 992px) {
     .our-history-card-content {
         padding: 30px 60px;
+    }
+}
+@media (min-width: 1280px) {
+    .our-history-card-content {
+        padding: 45px 80px;
     }
 }
 .our-history-card-month {
