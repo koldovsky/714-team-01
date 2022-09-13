@@ -48,7 +48,6 @@
 
 .partners-cards {
     display: flex;
-    /* justify-content: center;   */
     min-width: 293px;
     overflow: hidden;
 }
