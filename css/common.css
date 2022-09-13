@@ -24,8 +24,8 @@
 }
 
 img {
-    display: block;
-    width: 100%;
+    /* display: block; */
+    /* width: 100%; */
 }
 
 .container {
@@ -48,7 +48,3 @@ h2 {
     background-color: var(--color-main);
 }
 
-img {
-    display: block;
-    width: 100%;
-}
