@@ -1,5 +1,5 @@
 .header {
-    height: 107px;
+    height: 107px;    
     background-color: var(--color-promo-section-bg);
 }
 
@@ -48,3 +48,31 @@
 .nav__menu>a:active {
     color: var(--color-main-hover);
 }
+
+@media (min-width: 320px) {
+    .nav__menu, .nav__icons-container {
+        visibility: hidden;
+    }
+    .promo__img > img {
+        width: 320px;
+    }
+}
+
+@media (min-width: 480px) {
+    .promo__img > img {
+        width: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .promo__img > img {
+        width: 750px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .nav__menu, .nav__icons-container {
+        visibility: visible;
+    }
+}
+
