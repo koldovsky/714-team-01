@@ -1,14 +1,13 @@
 .huski__breeds-selector {
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    position: relative;
-    z-index: 9999999;
+    position: relative;  
+    
+}
+.huski__breeds{
+    height: 450px;
 }
 
 .breed-selector-card {
-    width: 390px;
-    height: 328px;
+    width:100%;
     text-align: center;
     padding: 60px 35px 25px 35px;    
 }
@@ -55,24 +54,25 @@
     color: var(--color-text-light);
     background-color: var(--color-bg-dark);
 }
-.huski__breeds{
+.huski__breeds__wrapper{
     background-color: var(--color-promo-section-bg);
 }
 /*_______________________________________________________________-*/
 .champions{
     color: var(--color-text-light);
     background-color:var(--color-dark);
-    position: relative;
+    padding-top: 480px;
 }
 .haski__champions-header {
     font-size: 40px;
     line-height: 52px;
     padding-bottom: 15px;
 }
-.haski__champions-divider {
-    width: 25px;
-    border: 1px solid var(--color-main);
-    margin-bottom: 15px;
+.huski__champions-preview{
+    text-align: center;
+}
+.huski__champions-preview>.line-under-heading{
+    margin:15px auto;
 }
 .huski__champions-preview>p {
     color: var(--color-text-on-dark);
@@ -100,21 +100,53 @@
 .huski__champions-card{
     text-align: center;  
     width: 300px;  
+    padding-top:20px;
+    margin: 20px auto;
 }
 .huski__champions-card-paragraph-bold{    
     margin: 20px auto;
     font-size: 24px;
     font-weight: 700;
 }
-.champions-wrap {
-    display: flex;
-    padding-top: 300px;
-}
-.huski__champions-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-.huski__breeds__wrapper{
-    height: 200px;
-}
 
+@media (min-width: 768px){
+    .huski__champions-list {
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+    .huski__breeds-selector {
+        position: relative;  
+        display: flex;
+    }
+    .huski__breeds{
+        height: 150px;
+    }
+    .champions{
+        padding-top: 250px;
+    }
+    .breed-selector-card{
+        width: 33%;
+        padding: 60px 15px 25px 15px; 
+    }    
+
+}
+@media (min-width: 992px){
+    .breed-selector-card {
+        padding: 60px 35px 25px 35px;    
+    }
+    .champions-wrap {
+        display: grid;
+       padding-top: 180px;
+       grid-template-columns: 1fr 2fr; 
+    }
+   .champions{
+    padding-top: 20px;
+    }
+    .huski__champions-preview{
+        text-align: left;
+        padding-top: 40px;
+    }
+    .huski__champions-preview>.line-under-heading{
+        margin:15px 0;
+    }
+}
