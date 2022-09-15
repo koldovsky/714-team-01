@@ -1,5 +1,5 @@
 .header {
-    height: 107px;
+    height: 107px;    
     background-color: var(--color-promo-section-bg);
 }
 
@@ -47,4 +47,13 @@
 }
 .nav__menu>a:active {
     color: var(--color-main-hover);
+}
+
+@media (min-width: 320px) {
+    .nav__menu, .nav__icons-container {
+        visibility: hidden;
+    }
+    .promo__img > img {
+        width: 320px;
+    }
 }
