@@ -1,5 +1,47 @@
-.contact__us-paragraph{
+.contact__us-paragraph, .contact__us-detail-span-description{
     color: var(--color-contact-us);
     margin-bottom: 15px;
     line-height: 26px;
 }
+.contact__us-detail-span-paragraph{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+}
+.contact__us-map{
+    width: 300px;
+    margin-bottom: 30px;
+}
+.contact__us-detail-span-description>a{
+    text-decoration: none;
+    color: var(--color-contact-us);
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+.contact__us-map{
+    width: 80%;
+    margin: auto;
+}
+#map{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.contact__us-form{
+    width: 90%;
+    background-color: var(--color-month-title-on-dark);
+    display: block;
+    margin: 15px auto;
+}
+#name, #email, #phone, #message{
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 15px 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid var(--color-contact-us);
+    
+}
+
