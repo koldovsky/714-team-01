@@ -1,0 +1,5 @@
+.contact__us-paragraph{
+    color: var(--color-contact-us);
+    margin-bottom: 15px;
+    line-height: 26px;
+}
