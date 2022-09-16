@@ -1,0 +1,122 @@
+.contact__us-paragraph, .contact__us-detail-span-description{
+    color: var(--color-contact-us);
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+.contact__us-info{
+    padding-top: 20px;
+}
+.contact__us-detail-span-paragraph{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+}
+.contact__us-map{
+    width: 300px;
+    margin-bottom: 30px;
+}
+.contact__us-detail-span-description>a{
+    text-decoration: none;
+    color: var(--color-contact-us);
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+.colored-houres{
+    color: var(--color-main);
+}
+.contact__us-map{
+    width: 80%;
+    margin: auto;
+}
+#map{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.contact__us-form{
+    width: 90%;
+    background-color: var(--color-month-title-on-dark);
+    display: block;
+    margin: 15px auto;
+    background-color:var(--form-bg-color);
+    padding: 30px 20px;
+
+;}
+#name, #email, #phone{
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 19px 21px;
+    background-color: var(--form-bg-color);
+    border: none;
+    border-bottom: 2px solid var(--outline-form-color);
+    
+}
+#message{
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 19px 21px 150px 21px;
+    background-color: var(--form-bg-color);
+    border: none;
+    border-bottom: 2px solid var(--outline-form-color);
+}
+#name:focus, #email:focus, #phone:focus, #message:focus{
+    border: none;
+    outline: 2px solid var(--outline-active-color);
+    border-radius: 3px;
+}
+#submit{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 50px;
+    width: 100%;
+    background-color:var(--color-main);
+    border: none;
+    margin-top: 40px;
+}
+#submit:hover{
+    background-color:var(--color-accent);
+    color:var(--color-text-light);
+}
+@media(min-width: 768px){
+    .contact__us-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 100px;
+    }
+    .contact__us-form{
+        width: 70%;
+        margin: auto;
+    }
+    .contact__us-detail{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    #map{
+        width: 100%;
+        position: relative;
+        bottom: 0;       
+    }
+    .contact__us-info{
+        width: 80%;
+    }
+    .contact__us-detail>span{
+        vertical-align: center;
+    }
+    .contact__us-map{
+        text-align: left;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #form-contact {
+        width: 80%;
+        margin: auto;
+    }
+    #submit{
+        width: 100%;        
+    }
+}
