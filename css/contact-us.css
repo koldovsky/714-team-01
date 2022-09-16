@@ -21,6 +21,9 @@
     margin-bottom: 15px;
     line-height: 26px;
 }
+.colored-houres{
+    color: var(--color-main);
+}
 .contact__us-map{
     width: 80%;
     margin: auto;
@@ -77,4 +80,43 @@
 #submit:hover{
     background-color:var(--color-accent);
     color:var(--color-text-light);
+}
+@media(min-width: 768px){
+    .contact__us-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 100px;
+    }
+    .contact__us-form{
+        width: 70%;
+        margin: auto;
+    }
+    .contact__us-detail{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    #map{
+        width: 100%;
+        position: relative;
+        bottom: 0;       
+    }
+    .contact__us-info{
+        width: 80%;
+    }
+    .contact__us-detail>span{
+        vertical-align: center;
+    }
+    .contact__us-map{
+        text-align: left;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #form-contact {
+        width: 80%;
+        margin: auto;
+    }
+    #submit{
+        width: 100%;        
+    }
 }
