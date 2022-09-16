@@ -3,6 +3,9 @@
     margin-bottom: 15px;
     line-height: 26px;
 }
+.contact__us-info{
+    padding-top: 20px;
+}
 .contact__us-detail-span-paragraph{
     font-size: 22px;
     font-weight: 600;
@@ -60,6 +63,18 @@
     border: none;
     outline: 2px solid var(--outline-active-color);
     border-radius: 3px;
-
 }
-
+#submit{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 50px;
+    width: 100%;
+    background-color:var(--color-main);
+    border: none;
+    margin-top: 40px;
+}
+#submit:hover{
+    background-color:var(--color-accent);
+    color:var(--color-text-light);
+}
