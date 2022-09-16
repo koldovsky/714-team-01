@@ -18,6 +18,7 @@
     --color-date-title: #619ec2;
     --color-text-light: #fff;
     --color-bg-light: #fff;
+    --color-bg-section: #F7F7F7;
     --color-bg-dark: #000;
     --color-month-title-on-dark: rgba(247, 247, 247, 0.59);
     scroll-behavior: smooth;

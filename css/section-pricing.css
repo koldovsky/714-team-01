@@ -1,0 +1,42 @@
+.section__pricing {
+    background-color: var(--color-bg-section);
+    padding: 130px 0 150px 0;
+}
+
+.pricing__title {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.pricing__promo {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-box__left {
+    width: 520px;
+    height: 550px;
+    background-color: var(--color-accent);
+}
+
+.pricing-box__center {
+    width: 520px;
+    height: 600px;
+    background-color: var(--color-main);
+}
+
+.pricing-box__right {
+    width: 520px;
+    height: 550px;
+    background-color: var(--color-secondary);
+}
