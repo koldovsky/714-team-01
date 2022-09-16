@@ -63,3 +63,8 @@ h2 {
     background-color: var(--color-main);
 }
 
+img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
