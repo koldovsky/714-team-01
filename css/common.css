@@ -21,6 +21,9 @@
     --color-bg-light: #fff;
     --color-bg-dark: #000;
     --color-month-title-on-dark: rgba(247, 247, 247, 0.59);
+    --outline-form-color: rgba(34, 34, 34, 0.12);
+    --form-bg-color: #F7F7F7;
+    --outline-active-color:#3B99FC;
     scroll-behavior: smooth;
 }
 

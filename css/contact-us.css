@@ -33,15 +33,33 @@
     background-color: var(--color-month-title-on-dark);
     display: block;
     margin: 15px auto;
-}
-#name, #email, #phone, #message{
+    background-color:var(--form-bg-color);
+    padding: 30px 20px;
+
+;}
+#name, #email, #phone{
     display: block;
     width: 100%;
     margin: 15px auto;
-    padding: 15px 10px;
-    height: 30px;
+    padding: 19px 21px;
+    background-color: var(--form-bg-color);
     border: none;
-    border-bottom: 1px solid var(--color-contact-us);
+    border-bottom: 2px solid var(--outline-form-color);
     
+}
+#message{
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 19px 21px 150px 21px;
+    background-color: var(--form-bg-color);
+    border: none;
+    border-bottom: 2px solid var(--outline-form-color);
+}
+#name:focus, #email:focus, #phone:focus, #message:focus{
+    border: none;
+    outline: 2px solid var(--outline-active-color);
+    border-radius: 3px;
+
 }
 
