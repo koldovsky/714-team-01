@@ -1,0 +1,55 @@
+.about-us-header {
+    display: grid;
+    justify-content: space-betweenl;
+    align-items: left;   
+    width: 1200px; 
+    padding: 40px 0 50px 0;    
+    }
+
+    .about-us {
+    background: url('../img/bg/about-us-background.webp') center center/cover no-repeat;
+    background-attachment: fixed;
+    }
+.our-team-card-image {
+    border-radius: 50%;
+}
+
+.about-us-header-text {
+    color: var(--color-text-on-light);
+}
+
+.about-us-text {
+color: var(--color-month-title-on-light);
+font-size: 15px;
+}
+
+.our-team-header-title {
+    font-size: 30px;
+    color: #141414;
+}
+
+.about-worker {
+    color: var(--color-text-on-light);
+    font-size: 15px;
+}
+
+.our-team-cards {
+    display: grid;
+    flex-direction: column;
+}
+
+.worker-name {
+    font-size: 23px;
+    color: var(--color-dark);
+}
+
+.line-under-our-team {
+    margin: 15px 0;
+    width: 35px;
+    height: 3px;
+    background-color: var(--color-accent);
+}
+
+.line-between-text {
+    color: var(--color-month-title-on-light);
+}
