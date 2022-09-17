@@ -1,5 +1,37 @@
+
+
 .about-us-header {
-    display: flex;
+    display: grid;
     flex-direction: column;
     gap: 30px;
+    background-image: url(src="https://res2.weblium.site/res/5e788f10b30bf00022c1bbdb/5e7cd484f89f6c00233d6b74_optimized_2560.webp");
+}
+
+.our-team-card-image {
+    border-radius: 50%;
+}
+
+.about-us-header-text {
+    color: var(--color-text-on-light);
+}
+
+.about-us-text {
+color: var(--color-month-title-on-light);
+font-size: 15px;
+}
+
+.our-team-header-title {
+    font-size: 28px;
+    text-transform: none;
+    color: var();
+}
+
+.about-worker {
+    color: var(--color-text-on-light);
+    font-size: 15px;
+}
+
+.our-team-cards {
+    display: grid;
+    flex-direction: columnw;
 }
