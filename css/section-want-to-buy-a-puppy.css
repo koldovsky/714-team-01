@@ -13,13 +13,13 @@
 }
 
 .section-want-to-buy-a-puppy { 
-    width: 570px;
-    height: 452px;
+    max-width: 570px;
+    min-height: 452px;
     background-color: var(--color-bg-light);
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     flex-direction: column;
-    padding: 50px;
+    margin: 50px;
 }
 
 .title__want-to-buy-a-puppy {
@@ -28,13 +28,9 @@
     overflow-wrap: break-word;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 20px;
-    color: var(--color-bg-dark);
+    color: var(--color-dark);
     line-height: 75px;
-}
-
-.text-section {
-    margin-top: 40px;
+    margin: 50px;
 }
 
 .text__want-to-buy-a-puppy {
@@ -64,3 +60,4 @@
     transition: .3s linear;
     transform: scale(1.0)
 }
+
