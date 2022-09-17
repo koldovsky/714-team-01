@@ -26,13 +26,11 @@
 }
 .contact__us-map{
     width: 80%;
-    margin: auto;
-    
+    margin: auto;    
 }
 #map{
     width: 100%;
-    height: auto;
-    margin: 10px auto;
+    margin: auto;
 }
 
 .contact__us-form{
@@ -101,7 +99,8 @@
     #map{
         width: 100%;
         position: relative;
-        bottom: 0;       
+        bottom: 0;   
+        min-height: 200px;    
     }
     .contact__us-info{
         width: 80%;
