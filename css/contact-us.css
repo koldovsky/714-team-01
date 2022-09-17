@@ -27,6 +27,7 @@
 .contact__us-map{
     width: 80%;
     margin: auto;
+    
 }
 #map{
     width: 100%;
@@ -41,8 +42,10 @@
     margin: 15px auto;
     background-color:var(--form-bg-color);
     padding: 30px 20px;
-
-;}
+}
+.contact__us-wrapper{
+    padding-bottom: 120px;
+}
 #name, #email, #phone{
     display: block;
     width: 100%;
@@ -111,10 +114,12 @@
         width: 100%;
         margin-left: 0;
         margin-right: 0;
+        position: relative;
+        bottom: 0;
     }
     #form-contact {
-        width: 80%;
         margin: auto;
+        width: 80%;
     }
     #submit{
         width: 100%;        
