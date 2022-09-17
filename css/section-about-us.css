@@ -1,11 +1,12 @@
-
-
 .about-us-header {
     display: grid;
-    flex-direction: column;
-    gap: 30px;
-    background-image: url(src="https://res2.weblium.site/res/5e788f10b30bf00022c1bbdb/5e7cd484f89f6c00233d6b74_optimized_2560.webp");
-}
+    justify-content: space-betweenl;
+    align-items: left;   
+    width: 1200px; 
+    padding: 40px 0 50px 0;
+    background: url('../img/bg/about-us-background.webp') center center/cover no-repeat;
+    background-attachment: fixed;    
+    }
 
 .our-team-card-image {
     border-radius: 50%;
@@ -21,9 +22,8 @@ font-size: 15px;
 }
 
 .our-team-header-title {
-    font-size: 28px;
-    text-transform: none;
-    color: var();
+    font-size: 30px;
+    color: #141414;
 }
 
 .about-worker {
@@ -33,5 +33,21 @@ font-size: 15px;
 
 .our-team-cards {
     display: grid;
-    flex-direction: columnw;
+    flex-direction: column;
+}
+
+.worker-name {
+    font-size: 23px;
+    color: var(--color-dark);
+}
+
+.line-under-our-team {
+    margin: 15px 0;
+    width: 35px;
+    height: 3px;
+    background-color: var(--color-accent);
+}
+
+.line-between-text {
+    color: var(--color-month-title-on-light);
 }
