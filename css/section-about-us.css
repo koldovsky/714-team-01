@@ -3,11 +3,13 @@
     justify-content: space-betweenl;
     align-items: left;   
     width: 1200px; 
-    padding: 40px 0 50px 0;
-    background: url('../img/bg/about-us-background.webp') center center/cover no-repeat;
-    background-attachment: fixed;    
+    padding: 40px 0 50px 0;    
     }
 
+    .about-us {
+    background: url('../img/bg/about-us-background.webp') center center/cover no-repeat;
+    background-attachment: fixed;
+    }
 .our-team-card-image {
     border-radius: 50%;
 }
