@@ -1,0 +1,37 @@
+.livin-with-huskies {
+    background: var(--color-bg-light);
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.livin-with-huskies__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.livin-with-huskies__text {
+    font-size: 16px;
+    color: var(--color-text-on-light);
+    margin-bottom: 10px;
+}
+
+.living-with-huskies__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.living-with-huskies__video img {
+    display: block;
+    width: 100%;
+}
+
+.livin-with-huskies__video-icon {
+    position: absolute;
+    z-index: 50;
+    width: 70px;
+    height: 70px;
+}
