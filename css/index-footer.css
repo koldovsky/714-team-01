@@ -17,6 +17,18 @@
     padding-bottom: 20px;
 }
 
+    @media (min-width: 320px) {
+        .footer__menu {
+            flex-direction: column;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .footer__menu {
+            flex-direction: row;
+        }
+    }
+
 .footer__menu_item, .footer__menu_item:visited {
     color: var(--color-dark);
     font-size: 15px;

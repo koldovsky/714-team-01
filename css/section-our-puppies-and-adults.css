@@ -79,3 +79,9 @@
     cursor: pointer;
     background: var(--color-secondary);
 }
+
+
+/* тимчасовий код, щоб налаштувати мобільну версію сайту - Anatolii Horobets - можна видалити потім */
+.carousel__image {
+    width: 280px;
+}
