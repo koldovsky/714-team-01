@@ -21,6 +21,10 @@
         .footer__menu {
             flex-direction: column;
         }
+        .footer__menu_item {
+            text-align: center;
+            padding-bottom: 10px;
+        }
     }
 
     @media (min-width: 768px) {
