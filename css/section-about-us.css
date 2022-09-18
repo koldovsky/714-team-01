@@ -1,13 +1,25 @@
 .about-us-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: grid;    
     padding: 40px 0 50px 0;    
+}
+
+    @media (min-width: 320px) {
+        .about-us-header {
+            grid-template-columns: 1fr;
+        }
     }
 
-    .about-us {
-    background: url('../img/bg/about-us-background.webp') center center/cover no-repeat;
-    background-attachment: fixed;
+    @media (min-width: 768px) {
+        .about-us-header {
+            grid-template-columns: 1fr 1fr;
+        }
     }
+
+.about-us {
+background: url('../img/bg/about-us-background.webp') center center/cover no-repeat;
+background-attachment: fixed;
+}
+
 .our-team-card-image {
     border-radius: 50%;
 }
