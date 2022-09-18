@@ -15,27 +15,39 @@
     margin: auto;
     padding-bottom: 15px;
 }
-.section-pricing__underline {
-}
-.line-under-heading {
-}
+
 .section-faq__text {
     max-width: 750px;
     text-align: center;
     display: block;
     margin: auto;
-    padding: 25px 0px 65px 0px;
+    padding: 25px 20px 40px 20px;
     line-height: 2;
     color: var(--color-text-on-light);
 }
+
 .section-faq__boxes {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
 }
 
-.section-faq__boxes > .section-faq__box:not(:last-child) {
-    padding: 0px 40px 40px 0px;
-}
+    @media (min-width: 320px) {
+        .section-faq__boxes {
+            grid-template-columns: 1fr;
+            padding: 20px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .section-faq__boxes {
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
+            padding: 20px;
+        }
+    }
+
+.section-faq__box_text:not(:last-child) {
+    padding: 0px 0px 40px 0px;
+} 
 
 .section-faq__box_title {
     font-size: 24px;
