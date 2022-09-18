@@ -1,4 +1,5 @@
 .section-faq {
+    background-color: var(--color-bg-section);
 }
 .section-faq-body {
     padding: 115px 0px 84px 0px;

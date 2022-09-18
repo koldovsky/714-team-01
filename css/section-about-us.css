@@ -1,8 +1,6 @@
 .about-us-header {
     display: grid;
-    justify-content: space-betweenl;
-    align-items: left;   
-    width: 1200px; 
+    grid-template-columns: 1fr 1fr;
     padding: 40px 0 50px 0;    
     }
 
