@@ -2,7 +2,7 @@
     background-color: var(--color-bg-section);
 }
 .section-faq-body {
-    padding: 115px 0px 84px 0px;
+    padding: 115px 20px 84px 20px;
 }
 
 .section-faq-promo {
@@ -13,17 +13,18 @@
 .section-faq__title {
     display: block;
     margin: auto;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
+
 
 .section-faq__text {
     max-width: 750px;
     text-align: center;
     display: block;
     margin: auto;
-    padding: 25px 20px 40px 20px;
     line-height: 2;
     color: var(--color-text-on-light);
+    padding: 20px 0px 60px 0px;
 }
 
 .section-faq__boxes {
@@ -33,32 +34,41 @@
     @media (min-width: 320px) {
         .section-faq__boxes {
             grid-template-columns: 1fr;
-            padding: 20px;
+
         }
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 620px) {
+        .section-faq__boxes {
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+    } 
+
+    @media (min-width: 920px) {
         .section-faq__boxes {
             grid-template-columns: 1fr 1fr 1fr;
             gap: 40px;
-            padding: 20px;
         }
-    }
-
-.section-faq__box_text:not(:last-child) {
-    padding: 0px 0px 40px 0px;
-} 
+    } 
 
 .section-faq__box_title {
     font-size: 24px;
     line-height: 1.5;
     font-weight: 700;
-    padding: 0px 0px 36px 0px;
     color: var(--color-dark);
+    padding-bottom: 20px;
 }
 
 .section-faq__box_text {
     font-size: 15px;
     line-height: 1.5;
-    color: var(--color-text-on-light);
+    color: var(--color-text-on-light);    
 }
+
+    @media (max-width: 619px) {
+        .section-faq__box_text {
+            padding-bottom: 20px;
+        }
+    }
+
