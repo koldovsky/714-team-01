@@ -1,6 +1,6 @@
 .contact__us-paragraph, .contact__us-detail-span-description{
     color: var(--color-contact-us);
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     line-height: 26px;
 }
 .contact__us-info{
@@ -95,6 +95,7 @@
     .contact__us-detail{
         display: grid;
         grid-template-columns: 1fr 2fr;
+        align-self: center;
     }
     #map{
         width: 100%;
@@ -105,10 +106,11 @@
     .contact__us-info{
         width: 80%;
     }
-    .contact__us-detail>span{
+    .contact__us-detail-span{
         vertical-align: center;
     }
     .contact__us-map{
+        grid-area: 3/1/4/3;
         text-align: left;
         width: 100%;
         margin-left: 0;
