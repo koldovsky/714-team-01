@@ -1,20 +1,69 @@
-.plate {
-    width: 30%;
-    float: left;
+.align-center {
+    margin: 15px auto;
 }
 
-.plate-margin {
-    margin-right: 5%;
+.card-line {
+    border-top: 1px solid rgba(97, 100, 112, 0.11);
+    width: 80%;
+    margin: 15px 0;
 }
 
-.text-red {
+.how-to-buy-a-puppy {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F7F7F7;
+    
+}
+
+
+.how-to-buy-a-puppy p {
+    line-height: 1.7;
+}
+
+.how-to-buy-a-puppy__title {
+    text-align: center;
+}
+
+.how-to-buy-a-puppy__title p {
+    color: var(--color-text-on-light);
+    font-size: 16px;
+    width: 550px;
+    text-align: center;
+    margin: auto;
+}
+
+.how-to-buy-a-puppy__cards {
+    display: flex;
+    align-content: space-between;
+    margin-top: 55px;
+}
+
+.how-to-buy-a-puppy__card-item {
+    margin: 35px 15px;
+}
+
+.how-to-buy-a-puppy__card-item .card-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.how-to-buy-a-puppy__card-item .card-text{
+    color: var(--color-text-on-light);
+    font-size: 15px;
+}
+
+.card-text-red {
     color: var(--color-accent);
+    font-weight: 650;
 }
 
-.text-blue {
+.card-text-blue {
     color: var(--color-secondary);
+    font-weight: 650;
 }
 
-.text-yellow {
+.card-text-yellow {
     color: var(--color-main);
+    font-weight: 600;
 }
+ 
