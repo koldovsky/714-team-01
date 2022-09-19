@@ -7,7 +7,8 @@
 .our-puppies-and-adults__header{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .our-puppies-and-adults__text {
@@ -18,70 +19,19 @@
 .our-puppies-and-adults__image-text {
     font-size: 24px;
     color: var(--color-text-on-light);
+    margin-top: 20px;
 }
 
-.our-puppies-and-adults__carousel {
-    position: relative;
-    height: 570px;
-    width: 100%;
-}
-
-.carousel__item-containar {
-    position: relative;
-}
-
-.our-puppies-and-adults__slider {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-.our-puppies-and-adults__button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-
-    width: 30px;
-    height: 30px;
-}
-
-.carousel__button-left {
-    left: -30px;
-    color: var(--color-date-title);
-    transform: rotate(180deg);
-}
-
-.carousel__button-right {
-    right: -30px;
-}
-
-.carousel__nav{
+.our-puppies-and-adults__cart-containar {
     display: flex;
-    justify-content: center;
-    padding: 20px 0;
 }
 
-.carousel__indicators {
-    border: 0;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    background-color: #619ec24d;
-    /* background: var(); */
-    margin: 0 7px;
+.our-puppies-and-adults__image {
+    /* display: block; */
+    width: 100%;
 }
 
-.carousel__indicators:hover {
-    cursor: pointer;
-    background: var(--color-secondary);
-}
-
-
-/* тимчасовий код, щоб налаштувати мобільну версію сайту - Anatolii Horobets - можна видалити потім */
-.carousel__image {
-    width: 280px;
+.swiper-pagination {
+    position: relative;
+    margin-top: 20px;
 }

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Husky Kennel</title>
     <link rel="shortcut icon" href="img/icons/husky-favicon" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
@@ -237,73 +238,41 @@
                 <div class="our-puppies-and-adults__header">
                     <h2 class="our-puppies-and-adults__title">Our Puppies & Adults</h2>
                     <div class="line-under-heading"></div>
-                    <p class="our-puppies-and-adults__text">Look at these cuties! If you think one of them can join your
-                        pack,
-                        don't hesitate to contact us!</p>
+                    <p class="our-puppies-and-adults__text">Look at these cuties! If you think one of them can join
+                         your pack,don't hesitate to contact us!</p>
                 </div>
-                <div class="our-puppies-and-adults__carousel">
-                    <div class="our-puppies-and-adults__slider">
-
-                        <button class="our-puppies-and-adults__button carousel__button-left">
-                            <svg class="arrow-svg_3ht" viewBox="0 0 30 30">
-                                <defs>
-                                    <path
-                                        d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                                        id="a-1662927962496"></path>
-                                </defs>
-                                <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662927962496"></use>
-                            </svg>
-                        </button>
-
-                        <div class="carousel__item-containar">
-                            <div class="our-puppies-and-adults__card">
-                                <article class="our-puppies-and-adults__slider">
-                                    <img class="carousel__image" src="img/husky-male.png" alt="Gray husky">
-                                    <!-- <h3 class="our-puppies-and-adults__image-text">Donnie, male</h3> -->
-                                </article>
-                            </div>
-
-                            <article class="our-puppies-and-adults__slider">
-                                <img class="carousel__image" src="img/husky-puppy-female.png"
-                                    alt="Hasky puppy is lying down.">
-                                <!-- <h3 class="our-puppies-and-adults__image-text">Silva, female</h3> -->
-                            </article>
-                            <article class="our-puppies-and-adults__slider">
-                                <img class="carousel__image" src="img/husky-puppy-male.png"
-                                    alt="Hasky puppy eats from a bowl.">
-                                <!-- <h3 class="our-puppies-and-adults__image-text">Miska, male</h3> -->
-                            </article>
-                            <article class="our-puppies-and-adults__slider">
-                                <img class="carousel__image" src="img/husky-female.png" alt="Red husky">
-                                <!-- <h3 class="our-puppies-and-adults__image-text">Ulva, male</h3> -->
-                            </article>
+                <div class="our-puppies-and-adults__header"></div>
+            </div>
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper our-puppies-and-adults__card-containar">
+                        <div class="swiper-slide our-puppies-and-adults__card">
+                            <img class="our-puppies-and-adults__image" src="img/husky-male.png" alt="Gray husky">
+                            <p class="our-puppies-and-adults__image-text">Donnie, male</p>
                         </div>
-
-                        <button class="our-puppies-and-adults__button carousel__button-right" type="button">
-                            <svg class="arrow-svg_3ht" viewBox="0 0 30 30">
-                                <defs>
-                                    <path
-                                        d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                                        id="a-1662734681278"></path>
-                                </defs>
-                                <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662734681278"></use>
-                            </svg>
-                        </button>
-
+                        <div class="swiper-slide our-puppies-and-adults__card">
+                            <img class="our-puppies-and-adults__image" src="img/husky-puppy-female.png"
+                                alt="Hasky puppy is lying down.">
+                            <p class="our-puppies-and-adults__image-text">Silva, female</p>
+                        </div>
+                        <div class="swiper-slide our-puppies-and-adults__card">
+                            <img class="our-puppies-and-adults__image" src="img/husky-puppy-male.png"
+                                alt="Hasky puppy eats from a bowl.">
+                            <p class="our-puppies-and-adults__image-text">Miska, male</p>
+                        </div>
+                        <div class="swiper-slide our-puppies-and-adults__card">
+                            <img class="our-puppies-and-adults__image" src="img/husky-female.png" alt="Red husky">
+                            <p class="our-puppies-and-adults__image-text">Ulva, male</p>
+                        </div>
                     </div>
-
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <div class="carousel__nav">
-                    <button class="carousel__indicators current-slide"></button>
-                    <button class="carousel__indicators"></button>
-                    <button class="carousel__indicators"></button>
-                    <button class="carousel__indicators"></button>
-                </div>
-
-
+            </div>
+            <div class="container">
+                <div class="swiper-pagination"></div>
             </div>
         </section>
-
 
         <!--SECTION-HOW-TO-BUY-A-PUPPY-->
         <div class="container">
@@ -786,6 +755,8 @@
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/partners-carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/our-puppies-and-adults__carousel.js"></script>
 </body>
 
 </html>
