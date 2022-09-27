@@ -1,0 +1,57 @@
+.husky_lovers{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-image: url("/img/bg/husky_lovers_background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.husky_lovers h2{
+    color: var(--color-dark);
+}
+
+.husky_lovers p{
+    color: var(--color-text-on-light);
+}
+
+.husky_lovers_body{
+    width: 32rem;
+    background: white;
+    display: grid;
+    grid-gap: 1rem;
+    padding: 2rem;
+}
+
+.husky_lovers_button{
+    text-decoration: none;
+    color: var(--color-dark);
+    text-align: center;
+    background-color: var(--color-main);
+    width: 10rem;
+    font-weight: bold;
+    font-size: 12px;
+    line-height:3.125rem;
+}
+
+.husky_lovers_button:hover {
+    background-color: var(--color-accent);
+    color: var(--color-text-light);
+    transition: .3s linear;
+    transform: scale(1.0)
+}
+
+@media screen and (min-width: 768px) {
+.husky_lovers_body{
+    width: 23rem;
+}
+
+    .husky_lovers{
+        display: grid;
+        grid-template-columns: 50fr 50fr;
+    }
+}
