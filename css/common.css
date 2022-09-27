@@ -62,6 +62,7 @@ h2 {
     width: 35px;
     height: 3px;
     background-color: var(--color-main);
+    transition: width 2s;
 }
 
 

@@ -1,5 +1,5 @@
 .our-puppies-and-adults {
-    position: relative;
+    /* position: relative; */
     padding-top: 100px;
     padding-bottom: 110px;
 }
@@ -7,7 +7,8 @@
 .our-puppies-and-adults__header{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .our-puppies-and-adults__text {
@@ -18,29 +19,31 @@
 .our-puppies-and-adults__image-text {
     font-size: 24px;
     color: var(--color-text-on-light);
+    margin-top: 20px;
 }
 
 .our-puppies-and-adults__carousel {
     position: relative;
-    height: 570px;
-    width: 100%;
 }
 
-.carousel__item-containar {
-    position: relative;
+.our-puppies-and-adults__carousel-slides {
+    display: flex;
 }
 
-.our-puppies-and-adults__slider {
-    position: absolute;
-    top: 0;
-    bottom: 0;
+.our-puppies-and-adults__cart-containar {
+    padding: 0 15px;
+}
+
+.our-puppies-and-adults__image {
+    /* display: block; */
     width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 .our-puppies-and-adults__button {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     background: transparent;
     border: 0;
     cursor: pointer;
@@ -49,39 +52,45 @@
     height: 30px;
 }
 
-.carousel__button-left {
+.btn-prev {
     left: -30px;
-    color: var(--color-date-title);
     transform: rotate(180deg);
+    fill: var(--color-secondary);
 }
 
-.carousel__button-right {
+.btn-next {
     right: -30px;
+    fill: var(--color-secondary);
 }
 
-.carousel__nav{
+.btn-prev:hover,
+.btn-next:hover {
+    fill: var(--color-date-title-hover);
+}
+
+.our-puppies-and-adults__indicators {
+    position: relative;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
     padding: 20px 0;
 }
 
-.carousel__indicators {
+.indicators-dot {
     border: 0;
     border-radius: 50%;
     width: 10px;
     height: 10px;
-    background-color: #619ec24d;
-    /* background: var(); */
+    background: var(--color-date-title);
     margin: 0 7px;
-}
-
-.carousel__indicators:hover {
     cursor: pointer;
-    background: var(--color-secondary);
 }
 
-
-/* тимчасовий код, щоб налаштувати мобільну версію сайту - Anatolii Horobets - можна видалити потім */
-.carousel__image {
-    width: 280px;
+.indicators-dot:hover {
+    background: var(--color-date-title-hover);
 }
+
+.current-slide {
+    background: var(--color-secondary)
+}
+

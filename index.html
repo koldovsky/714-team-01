@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Husky Kennel</title>
     <link rel="shortcut icon" href="img/icons/husky-favicon" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> -->
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
@@ -232,106 +233,87 @@
         </section>
 
         <!-- SECTION-OUR-PUPPIES-AND-ADULTS -->
-        <section id="dogs" class="our-puppies-and-adults">
+        <section id="dogs" class="livin-with-huskies">
             <div class="container">
                 <div class="our-puppies-and-adults__header">
                     <h2 class="our-puppies-and-adults__title">Our Puppies & Adults</h2>
                     <div class="line-under-heading"></div>
-                    <p class="our-puppies-and-adults__text">Look at these cuties! If you think one of them can join your
-                        pack,
-                        don't hesitate to contact us!</p>
+                    <p class="our-puppies-and-adults__text">Look at these cuties! If you think one of them can join
+                        your
+                        pack,don't hesitate to
+                        contact us!</p>
                 </div>
+            </div>
+            <div class="container">
                 <div class="our-puppies-and-adults__carousel">
-                    <div class="our-puppies-and-adults__slider">
-
-                        <button class="our-puppies-and-adults__button carousel__button-left">
-                            <svg class="arrow-svg_3ht" viewBox="0 0 30 30">
-                                <defs>
-                                    <path
-                                        d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                                        id="a-1662927962496"></path>
-                                </defs>
-                                <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662927962496"></use>
-                            </svg>
-                        </button>
-
-                        <div class="carousel__item-containar">
-                            <div class="our-puppies-and-adults__card">
-                                <article class="our-puppies-and-adults__slider">
-                                    <img class="carousel__image" src="img/husky-male.png" alt="Gray husky">
-                                    <!-- <h3 class="our-puppies-and-adults__image-text">Donnie, male</h3> -->
-                                </article>
-                            </div>
-
-                            <article class="our-puppies-and-adults__slider">
-                                <img class="carousel__image" src="img/husky-puppy-female.png"
-                                    alt="Hasky puppy is lying down.">
-                                <!-- <h3 class="our-puppies-and-adults__image-text">Silva, female</h3> -->
-                            </article>
-                            <article class="our-puppies-and-adults__slider">
-                                <img class="carousel__image" src="img/husky-puppy-male.png"
-                                    alt="Hasky puppy eats from a bowl.">
-                                <!-- <h3 class="our-puppies-and-adults__image-text">Miska, male</h3> -->
-                            </article>
-                            <article class="our-puppies-and-adults__slider">
-                                <img class="carousel__image" src="img/husky-female.png" alt="Red husky">
-                                <!-- <h3 class="our-puppies-and-adults__image-text">Ulva, male</h3> -->
-                            </article>
-                        </div>
-
-                        <button class="our-puppies-and-adults__button carousel__button-right" type="button">
-                            <svg class="arrow-svg_3ht" viewBox="0 0 30 30">
-                                <defs>
-                                    <path
-                                        d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                                        id="a-1662734681278"></path>
-                                </defs>
-                                <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662734681278"></use>
-                            </svg>
-                        </button>
-
-                    </div>
-
+                    <button class="our-puppies-and-adults__button btn-prev">
+                        <svg class="arrow-svg_1j4" viewBox="0 0 30 30">
+                            <defs>
+                                <path
+                                    d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                                    id="a-1635269824382"></path>
+                            </defs>
+                            <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1635269824382"></use>
+                        </svg>
+                    </button>
+                    <div class="our-puppies-and-adults__carousel-slides"></div>
+                    <button class="our-puppies-and-adults__button btn-next">
+                        <svg class="arrow-svg_3ht" viewBox="0 0 30 30">
+                            <defs>
+                                <path
+                                    d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                                    id="a-1662734681278"></path>
+                            </defs>
+                            <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662734681278"></use>
+                        </svg></button>
                 </div>
-                <div class="carousel__nav">
-                    <button class="carousel__indicators current-slide"></button>
-                    <button class="carousel__indicators"></button>
-                    <button class="carousel__indicators"></button>
-                    <button class="carousel__indicators"></button>
+            </div>
+            <div class="container">
+                <div class="our-puppies-and-adults__indicators">
+                    <button class="indicators-dot current-slide"></button>
+                    <button class="indicators-dot"></button>
+                    <button class="indicators-dot"></button>
+                    <button class="indicators-dot"></button>
                 </div>
-
-
             </div>
         </section>
 
-
         <!--SECTION-HOW-TO-BUY-A-PUPPY-->
-        <div class="container">
-            <div class="how-to-buy-a-puppy_text">
-                <h2>How to Bue a Puppy</h2>
-                <div class="line"></div>
-                <p>Before you buy a husky, please, make sure that you can keep it and get
-                    familiar with the main features of this breed.</p>
-            </div>
-            <div class="plate plate-margin">
-                <h3><span class="text-yellow">01.</span> Contact us</h3>
-                <div class="line"></div>
-                <p>Tell us about yourself, and we will offer you puppies from the expected litter.</p>
-            </div>
-            <div class="plate plate-margin">
-                <h3><span class="text-blue">02.</span> Choose a Puppy & Pay</h3>
-                <div class="line"></div>
-                <p>Come to Happy Husky kennel and choose a puppy you like the most!</p>
-            </div>
-            <div class="plate">
-                <h3><span class="text-red">03.</span> Sign a Contract</h3>
-                <div class="line"></div>
-                <p>It obligates you to return the husky to us if you cannot continue to care for it.</p>
+        <div class="how-to-buy-a-puppy">
+            <div class="container">
+                <div class="how-to-buy-a-puppy__title">
+                    <h2>How to Buy a Puppy</h2>
+                    <div class="line-under-heading align-center"></div>
+                    <p>Before you buy a husky, please, make sure that you can keep it and get
+                        familiar with the main features of this breed.</p>
+                </div>
+                <div class="how-to-buy-a-puppy__cards">
+                    <div class="how-to-buy-a-puppy__card-item">
+                        <p class="card-title"><span class="card-text-yellow">01.</span> Contact us</p>
+                        <div class="card-line"></div>
+                        <p class="card-text">Tell us about yourself, and we will offer you puppies from the expected
+                            litter.</p>
+                    </div>
+                    <div class="how-to-buy-a-puppy__card-item">
+                        <p class="card-title"><span class="card-text-blue">02.</span> Choose a Puppy & Pay</p>
+                        <div class="card-line"></div>
+                        <p class="card-text">Come to Happy Husky kennel and choose a puppy you like the most!</p>
+                    </div>
+                    <div class="how-to-buy-a-puppy__card-item">
+                        <p class="card-title"><span class="card-text-red">03.</span> Sign a Contract</p>
+                        <div class="card-line"></div>
+                        <p class="card-text">It obligates you to return the husky to us if you cannot continue to care
+                            for it.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
+
         <!--SECTION-WHY-ADOPT-FROM-US-->
 
         <section class="adopt-from-us">
+            check
             <div class="container">
                 <div class="adopt-from-us-header">
                     <h2 class="adopt-from-us-header-title">Why Adopt From Us</h2>
@@ -425,14 +407,15 @@
         <section class="gallery" id="gallery">
             <h2 class="gallery_title"> Gallery</h2>
             <div class="line-under-heading"></div>
-            <p class="gallery_text"> Huskies are great companions and faithful friends. They are smart and energetic and can bring 150% of joy to your life!</p>
-            <div class="lightbox">   
-            <div class="grid">
-                        <img src="img/snow_husky.png" alt="Husky">
-                        <img src="img/husky-owner.png" alt="Owner">
-                        <img src="img/husky-mountains.png" alt="Mountains">
-                        <img src="img/two-huskies.png" alt="Huskies">
-            </div>        
+            <p class="gallery_text"> Huskies are great companions and faithful friends. They are smart and energetic and
+                can bring 150% of joy to your life!</p>
+            <div class="lightbox">
+                <div class="grid">
+                    <img src="img/snow_husky.png" alt="Husky">
+                    <img src="img/husky-owner.png" alt="Owner">
+                    <img src="img/husky-mountains.png" alt="Mountains">
+                    <img src="img/two-huskies.png" alt="Huskies">
+                </div>
             </div>
         </section>
 
@@ -542,30 +525,37 @@
                 <div class="testimonials__header">
                     <h2 class="testimonials__header-title">Testimonials</h2>
                     <div class="line-under-heading"></div>
-                    <p class="testimonials__header-text">We are on visiting terms with all our clients and enjoy watching our puppies grow and delight
+                    <p class="testimonials__header-text">We are on visiting terms with all our clients and enjoy
+                        watching our puppies grow and delight
                         their owners!</p>
                 </div>
                 <div class="testimonials__contaier">
                     <div class="testimonials-card">
-                        <img class="avatar__testimonials" src="img/sarah-jackson-with-dog.png" alt="Sarah Jackson with dog">
+                        <img class="avatar__testimonials" src="img/sarah-jackson-with-dog.png"
+                            alt="Sarah Jackson with dog">
                         <h3 class="title__testimonials">Sarah Jackson</h3>
-                        <p class="text__testimonials">My Siberian Husky, Randy, just turned 12 last December. She had a physical test last week and
+                        <p class="text__testimonials">My Siberian Husky, Randy, just turned 12 last December. She had a
+                            physical test last week and
                             the vet said she is in the optimal physical condition. She has a beautiful coat, enjoys her
                             daily walks.</p>
                         <p class="date__testimonials">October 12, 2018</p>
                     </div>
                     <div class="testimonials-card">
-                        <img class="avatar__testimonials" src="img/dan-ericsson-with-dog.png" alt="Dan Ericsson with dog">
+                        <img class="avatar__testimonials" src="img/dan-ericsson-with-dog.png"
+                            alt="Dan Ericsson with dog">
                         <h3 class="title__testimonials">Dan Ericsson</h3>
-                        <p class="text__testimonials">I just wanted to give you an update on the Alaskan husky puppy. He is doing fabulous, we all
+                        <p class="text__testimonials">I just wanted to give you an update on the Alaskan husky puppy. He
+                            is doing fabulous, we all
                             love him so much. Thank you so much for breeding and trusting us with one of your gorgeous
                             puppies!!!</p>
                         <p class="date__testimonials">June 28, 2019</p>
                     </div>
                     <div class="testimonials-card">
-                        <img class="avatar__testimonials" src="img/natalie-bolgar-with-dog.png" alt="Natalie Bolgar with dog">
+                        <img class="avatar__testimonials" src="img/natalie-bolgar-with-dog.png"
+                            alt="Natalie Bolgar with dog">
                         <h3 class="title__testimonials">Natalie Bolgar</h3>
-                        <p class="text__testimonials">I want to thank the Happy Husky kennel for the greatest blessing of my life! I've had my
+                        <p class="text__testimonials">I want to thank the Happy Husky kennel for the greatest blessing
+                            of my life! I've had my
                             beautiful girl Rosie now for 4 years. She loves to listen, learn, and to play. I'm the
                             happiest husky lover in the world!</p>
                         <p class="date__testimonials">March 04, 2020</p>
@@ -584,50 +574,10 @@
                 </div>
             </div>
             <div class="container">
-                <div class="partners-slider">
-                    <div class="partners-slider-item">
-                        <div class="partners-slider-item-box">
-                            <img class="partners-img" src="img/partners-chappie.png" width="203" alt="chappie-logo">
-                        </div>
-                    </div>
-                    <div class="partners-slider-item">
-                        <div class="partners-slider-item-box">
-                            <img class="partners-img" src="img/partners-husky-secondary.png" width="203"
-                                alt="husky-secondary-logo">
-                        </div>
-
-                    </div>
-                    <div class="partners-slider-item">
-                        <div class="partners-slider-item-box">
-                            <img class="partners-img" src="img/partners-bark-box.png" width="203" alt="bark-box-logo">
-                        </div>
-
-                    </div>
-                    <div class="partners-slider-item">
-                        <div class="partners-slider-item-box">
-                            <img class="partners-img" src="img/partners-husky.png" width="203" alt="husky-logo">
-                        </div>
-
-                    </div>
-                    <div class="partners-slider-item">
-                        <div class="partners-slider-item-box">
-                            <img class="partners-img" src="img/partners-royal-canin.png" width="203"
-                                alt="royal-canin-logo">
-                        </div>
-
-                    </div>
-                    <div class="partners-slider-item">
-                        <div class="partners-slider-item-box">
-                            <img class="partners-img" src="img/partners-dog-house.png" width="203" alt="dog-house">
-                        </div>
-
-                    </div>
-                </div>
+                <div class="partners-slider"></div>
             </div>
             <div class="container">
-                <div class="partners-control-element">
-
-                </div>
+                <div class="partners-control-element"></div>
             </div>
         </section>
 
@@ -660,7 +610,9 @@
                             How often is the deworming of dogs done?
                         </p>
                         <p class="section-faq__box_text">
-                            Worms can be in any dog, regardless of age, breed, and lifestyle. The veterinary service recommends to carry out prevention measures on a quarterly basis, as well as before vaccination and in the fall. 
+                            Worms can be in any dog, regardless of age, breed, and lifestyle. The veterinary service
+                            recommends to carry out prevention measures on a quarterly basis, as well as before
+                            vaccination and in the fall.
                         </p>
                     </div>
                     <div class="section-faq__box">
@@ -674,13 +626,15 @@
                         </p>
                     </div>
 
-                
+
                     <div class="section-faq__box">
                         <p class="section-faq__box_title">
                             Is it difficult to care for the husky coat?
                         </p>
                         <p class="section-faq__box_text">
-                            In general, this breed does not need complex care. Husky shed 1-2 times a year, at this time, you should comb the dog every day. All the rest of the time, it is enough to comb the dog once a week.
+                            In general, this breed does not need complex care. Husky shed 1-2 times a year, at this
+                            time, you should comb the dog every day. All the rest of the time, it is enough to comb the
+                            dog once a week.
                         </p>
                     </div>
                     <div class="section-faq__box">
@@ -703,7 +657,7 @@
                             uncharacteristic of them.
                         </p>
                     </div>
-                </div>               
+                </div>
             </div>
         </section>
 
@@ -718,51 +672,55 @@
                         about owning a husky or schedule or visit to our kennel!
                     </p>
                     <div class="contact__us-detail">
-                        <span class="contact__us-detail-span">
+                        <div class="contact__us-detail-span">
                             <p class="contact__us-detail-span-paragraph">Address</p>
-                        </span>
-                        <span class="contact__us-detail-span">
+                        </div>
+                        <div class="contact__us-detail-span">
                             <p class="contact__us-detail-span-description">2946 SE Hwy, 2, Wilburton,
                                 OK 74578, USA</p>
-                        </span>
+                        </div>
                     </div>
                     <div class="contact__us-detail">
-                        <span class="contact__us-detail-span">
+                        <div class="contact__us-detail-span">
                             <p class="contact__us-detail-span-paragraph">Hours</p>
-                        </span>
-                        <span class="contact__us-detail-span">
-                            <p class="contact__us-detail-span-description">Monday - Saturday: <span
-                                    class="colored-houres">11 AM - 9 PM</span><br>
-                                Sunday:<span class="colored-houres"> 11 AM - 7 PM</span> </p>
-                        </span>
+                        </div>
+                        <div class="contact__us-detail-span">
+                            <p class="contact__us-detail-span-description">Monday - Saturday:</p>
+                            <div class="colored-houres">11 AM - 9 PM</div>
+                            <p class="contact__us-detail-span-description">Sunday:</p>
+                            <div class="colored-houres"> 11 AM - 7 PM</div>
+
+                        </div>
                     </div>
                     <div class="contact__us-detail">
-                        <span class="contact__us-detail-span">
+                        <div class="contact__us-detail-span">
                             <p class="contact__us-detail-span-paragraph">Contacts</p>
-                        </span>
-                        <span class="contact__us-detail-span">
+                        </div>
+                        <div class="contact__us-detail-span">
                             <p class="contact__us-detail-span-description">
-                                <a href="callto:+1(234)5678900">+1 (234) 567 89 00</a><br>
+                                <a href="callto:+1(234)5678900">+1 (234) 567 89 00</a>
                                 <a href="mailto:happyhusky@email.com">happyhusky@email.com</a>
                             </p>
-                        </span>
-                    </div>
-                    <div class="contact__us-map">
-                        <iframe id="map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.3884236782046!2d-95.29492968488475!3d34.87159138039103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b56e8c4d2e7c9d%3A0xe78d9f754be01a6c!2zMjk0NiBPSy0yLCBXaWxidXJ0b24sIE9LIDc0NTc4LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1663251137020!5m2!1sru!2sua"
-                            style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
+                        <div class="contact__us-map">
+                            <iframe id="map"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.3884236782046!2d-95.29492968488475!3d34.87159138039103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b56e8c4d2e7c9d%3A0xe78d9f754be01a6c!2zMjk0NiBPSy0yLCBXaWxidXJ0b24sIE9LIDc0NTc4LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1663251137020!5m2!1sru!2sua"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
                 </div>
                 <div class="contact__us-form">
                     <form action="#" id="form-contact">
-                        <input type="name" id="name" name="name" placeholder="Enter your full name*" required>
-                        <input type="phone" id="phone" name="phone" placeholder="Enter your phone number*" required>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name*" required>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number*" required>
                         <input type="email" id="email" name="email" placeholder="Enter your e-mail*" required>
                         <input type="text" id="message" name="text" placeholder="Type your message">
                         <input type="submit" id="submit" name="submit" value="Request a quote">
                     </form>
                 </div>
+
             </div>
         </section>
     </main>
@@ -798,7 +756,11 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/partners-cards.js"></script>
     <script src="js/partners-carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/our-puppies-and-adults__carousel.js"></script>
+    <script src="./js/buy-a-puppy-section.js"></script>
 </body>
 
 </html>
