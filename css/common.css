@@ -17,7 +17,8 @@
     --color-text-on-light: #616470;
     --color-month-title-on-light: rgba(97,100,112,0.55);    
     --color-contact-us: rgb(97,100,112); 
-    --color-date-title: #619ec2;
+    --color-date-title: #619ec25f;
+    --color-date-title-hover: #5d97b8;
     --color-text-light: #fff;
     --color-bg-light: #fff;
     --color-bg-section: #F7F7F7;
