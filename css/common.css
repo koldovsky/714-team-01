@@ -13,7 +13,7 @@
     --color-secondary: #619EC2;
     --color-dark: #222;
     --color-promo-section-bg: #F5F1EF;
-    --color-text-on-dark: #B6B6B6;
+    --color-text-on-dark: rgba(182, 182, 182, 0.4);
     --color-text-on-light: #616470;
     --color-month-title-on-light: rgba(97,100,112,0.55);    
     --color-contact-us: rgb(97,100,112); 
