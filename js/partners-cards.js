@@ -2,32 +2,32 @@
     const partners = [
         {
             id: "partners-slider-item-1",
-            img: "partners-chappie.png",
+            img: "img/section-partners/partners-chappie.png",
             description: "chappie-logo"
         },
         {
             id: "partners-slider-item-2",
-            img: "img/partners-husky-secondary.png",
+            img: "img/section-partners/partners-husky-secondary.png",
             description: "husky-secondary-logo"
         },
         {
             id: "partners-slider-item-3",
-            img: "img/partners-bark-box.png",
+            img: "img/section-partners/partners-bark-box.png",
             description: "bark-box-logo"
         },
         {
             id: "partners-slider-item-4",
-            img: "img/partners-husky.png",
+            img: "img/section-partners/partners-husky.png",
             description: "husky-logo"
         },
         {
             id: "partners-slider-item-5",
-            img: "img/partners-royal-canin.png",
+            img: "img/section-partners/partners-royal-canin.png",
             description: "royal-canin-logo"
         },
         {
             id: "partners-slider-item-6",
-            img: "img/partners-dog-house.png",
+            img: "img/section-partners/partners-dog-house.png",
             description: "dog-house"
         }
     ];
