@@ -28,4 +28,6 @@
         }
     }
     tabsActivate(windowWidth)    
+    // window.addEventListener('resize', tabsActivate) 
+    
 })();
