@@ -10,14 +10,13 @@
 
 .horizontal-transition {
     transition: 3s;
-    width: 40%
+    width: 40%;
 }
 
 .how-to-buy-a-puppy {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #F7F7F7;
-    
+    background-color: #f7f7f7;
 }
 
 .how-to-buy-a-puppy p {
@@ -31,7 +30,7 @@
 .how-to-buy-a-puppy__title p {
     color: var(--color-text-on-light);
     font-size: 16px;
-    width: 550px;
+    /* width: 550px; */
     text-align: center;
     margin: auto;
 }
@@ -46,12 +45,12 @@
     margin: 35px 15px;
 }
 
-.how-to-buy-a-puppy__card-item .card-title{
+.how-to-buy-a-puppy__card-item .card-title {
     font-size: 24px;
     font-weight: 500;
 }
 
-.how-to-buy-a-puppy__card-item .card-text{
+.how-to-buy-a-puppy__card-item .card-text {
     color: var(--color-text-on-light);
     font-size: 15px;
 }
@@ -70,4 +69,3 @@
     color: var(--color-main);
     font-weight: 600;
 }
- 
