@@ -19,15 +19,16 @@
             item.classList.contains(tabName) ? item.classList.add('is-active') : item.classList.remove('is-active')
         })
     }
-    const windowWidth = window.innerWidth;
-    const tabsActivate = function (windowWidth) {
+    
+    const tabsActivate = function () {
+        const windowWidth = window.innerWidth;
         if (windowWidth >= 992) {
             tabContent.forEach(item => {
                 item.classList.add('is-active')
             })
         }
     }
-    tabsActivate(windowWidth)    
-    // window.addEventListener('resize', tabsActivate) 
+    // tabsActivate(windowWidth)    
+    window.addEventListener('resize', tabsActivate) 
     
 })();
