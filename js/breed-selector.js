@@ -36,4 +36,9 @@
       }
     }
     rendBreeds(breeds);
+
+    function changeBackgroundColor() {
+        const changeColorForCardBG = document.querySelector();
+        
+    }
   })();
