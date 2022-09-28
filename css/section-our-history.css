@@ -43,6 +43,38 @@
     color: var(--color-text-on-dark);
 }
 
+/* Tabs */
+
+.our-history-tabs-nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 375px;
+}
+@media (min-width: 992px) {
+    .our-history-tabs-nav {
+        display: none;
+    }
+}
+.our-history-tabs-item {
+    padding: 20px 0;
+    border-bottom: 3px solid transparent;
+    color: var(--color-text-light);
+    font-weight: 600;
+    cursor: pointer;
+}
+.is-active {
+    border-color: var(--color-main);
+}
+.our-history-tabs-content {
+}
+.our-history-tab-content{
+    color: var(--color-text-on-dark);
+    display: none;
+}
+.our-history-tab-content.is-active {
+    display: block;
+}
+
 .our-history-cards {
 
 }
