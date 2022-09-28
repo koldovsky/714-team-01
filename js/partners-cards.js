@@ -44,4 +44,30 @@
         }
     }
     renderPartners(partners);
+
+
+    // Clock
+    const clockContainer = document.querySelector('.partners-clock-container');
+    function updateClock() {
+        clockContainer.innerText = `Current time: ${new Date().toLocaleTimeString()}`;
+    }
+    setInterval(updateClock, 1000);
+
+    // Countdown
+    const someDate = new Date('November 23 2022 00:00:00');
+    const currentDate = new Date();
+    let startTime = (someDate - currentDate) / 1000;
+    const countDownEl = document.querySelector('.countdown')
+    setInterval(updateCountDown, 1000);
+    function updateCountDown() {
+        let days = Math.floor(startTime / 60 / 60 / 24);
+        let hours = Math.floor(startTime / 60 / 60 - days * 24);
+        let minutes = Math.floor(startTime / 60 - days * 24 * 60 - hours * 60);
+        let seconds = Math.floor(startTime - days * 24 * 60 * 60 - hours * 60 * 60 - minutes * 60) ;
+        hours = hours < 10 ? '0' + hours : hours;
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+        countDownEl.innerHTML = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
+        startTime--;
+    }    
 })();
