@@ -68,3 +68,12 @@ margin-top: 6rem;
        flex-direction: row ;
     }
 }
+
+.adopt-from-us__clock{
+    font-size: 2rem;
+    background: rgba(166, 165, 165, 0.11);
+    width: 40%;
+    margin: auto;
+    margin-bottom: 1rem;
+    color: #616470;
+}

@@ -10,12 +10,19 @@
     padding: 27px 15px;
 }
 
+
+
 @media (min-width: 320px) {
     .nav__menu {
         visibility: hidden;
     }
     .nav__icons-container {
         visibility: hidden;
+    }
+    .nav__icons-container_mobile {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;        
     }
 }
 
@@ -26,6 +33,7 @@
     .nav__icons-container {
         visibility: visible;
     }
+    
 }
 
 .mobile-menu__link {
