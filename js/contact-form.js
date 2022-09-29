@@ -19,8 +19,8 @@
           } else {
             response.json().then((data) => {
               if (Object.hasOwn(data, "errors")) {
-                status.innerHTML = data["errors"]
-                  .map((error) => error["message"])
+                status.innerHTML = data.errors
+                  .map((error) => error.message)
                   .join(", ");
               } else {
                 status.innerHTML =
