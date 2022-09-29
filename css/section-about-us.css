@@ -12,6 +12,7 @@
     @media (min-width: 768px) {
         .about-us-header {
             grid-template-columns: 1fr 1fr;
+            
         }
     }
 
