@@ -1,0 +1,37 @@
+.buy-a-toy-for-your-puppy{
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.buy-a-toy-for-your-puppy h2{
+    text-align: center;
+}
+
+.toy-card{
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+.toys-for-puppies-list{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
+}
+
+
+.toy-card__image{
+    width: 5rem;
+}
+
+.buy-a-toy-for-your-puppy p{
+    color: var(--color-text-on-light);
+}
+
+.buy-a-toy-for-your-puppy h2, h3{
+    color: var(--color-dark);
+}
