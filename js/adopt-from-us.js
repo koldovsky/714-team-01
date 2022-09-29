@@ -6,4 +6,3 @@ function updateAdoptFromUsClock(){
 }
 
 setInterval(updateAdoptFromUsClock,1000);
-
