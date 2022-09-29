@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ff8159f-9452-4da2-a6c0-076e54c95cd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/buy-a-toy-for-your-puppy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/chicken_toy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/egg_toy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/hotdog_toy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/buy-a-toy-for-your-puppy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/adopt-from-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/adopt-from-us.js" afterDir="false" />
-    </list>
+    <list default="true" id="3ff8159f-9452-4da2-a6c0-076e54c95cd8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

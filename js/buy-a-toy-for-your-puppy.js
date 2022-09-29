@@ -3,7 +3,7 @@
     const toys = [
         {
             id: 1,
-            title: "Duck toy",
+            title: "Chiken toy",
             img: "img/chicken_toy.jpg",
             description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
             price: 10.99
@@ -17,7 +17,7 @@
         },
         {
             id: 3,
-            title: "Cat toy",
+            title: "Egg toy",
             img: "img/egg_toy.jpg",
             description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
             price: 8.99
