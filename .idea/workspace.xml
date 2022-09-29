@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ff8159f-9452-4da2-a6c0-076e54c95cd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/funny-siberian-husky-puppies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/siberian-husky-puppy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/burger-menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/burger-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/burger-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/breed-selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/breed-selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg/husky_lovers_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/husky-lovers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/husky-lovers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/adopt-from-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/adopt-from-us.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
