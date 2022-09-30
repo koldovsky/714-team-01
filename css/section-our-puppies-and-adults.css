@@ -1,5 +1,4 @@
 .our-puppies-and-adults {
-    /* position: relative; */
     padding-top: 100px;
     padding-bottom: 110px;
 }
@@ -9,6 +8,7 @@
     flex-direction: column;
     margin-top: 30px;
     margin-bottom: 20px;
+    line-height: 1.65;
 }
 
 .our-puppies-and-adults__text {
@@ -81,16 +81,24 @@
     border-radius: 50%;
     width: 10px;
     height: 10px;
-    background: var(--color-date-title);
-    margin: 0 7px;
+    background: var(--color-secondary);
+    opacity: .3;
+    margin: 0 8px;
     cursor: pointer;
 }
 
 .indicators-dot:hover {
-    background: var(--color-date-title-hover);
+     /* background: var(--color-secondary); */
+     opacity: 1;
+}
+
+.indicators-dot:active {
+    background: var(--color-secondary);
+    opacity: .75;
 }
 
 .current-slide {
-    background: var(--color-secondary)
+    background: var(--color-secondary);
+    opacity: .75;
 }
 
