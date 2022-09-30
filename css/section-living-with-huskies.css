@@ -8,7 +8,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 15px;
     text-align: center;
 }
 
@@ -26,7 +25,6 @@
 .living-with-huskies__text {
     font-size: 16px;
     color: var(--color-text-on-light);
-    margin-bottom: 10px;
 }
 
 .living-with-huskies__video-container {
