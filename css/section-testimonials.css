@@ -28,7 +28,7 @@
 }
 
 .testimonials-card {
-    min-width: 370px;
+    /* min-width: 370px; */
     height: 507px;
     background-color: var(--color-month-title-on-dark);
     display: flex;

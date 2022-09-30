@@ -36,9 +36,15 @@
 }
 
 .how-to-buy-a-puppy__cards {
-    display: flex;
-    align-content: space-between;
-    margin-top: 55px;
+    /* властивості з цього класу переніс в медіа запити нижче */
+    text-align:  center;
+}
+@media (min-width: 768px) {
+    .how-to-buy-a-puppy__cards {
+        display: flex;
+        align-content: space-between;
+        margin-top: 55px;
+    }
 }
 
 .how-to-buy-a-puppy__card-item {
