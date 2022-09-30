@@ -40,7 +40,7 @@
     max-width: 870px;
     font-size: 16px;  
     line-height: 1.65;
-    color: rgba(182, 182, 182, 1);; 
+    color: var(--color-text-on-dark);
 }
 
 /* Tabs */
@@ -65,8 +65,7 @@
 .is-active {
     border-color: var(--color-main);
 }
-.our-history-tabs-content {
-}
+
 .our-history-tab-content{
     color: var(--color-text-on-dark);
     display: none;
@@ -75,9 +74,8 @@
     display: block;
 }
 
-.our-history-cards {
+/* Cards */
 
-}
 .our-history-card {
     padding: 20px 30px;
     margin-top: 30px;
@@ -111,7 +109,8 @@
 @media (min-width: 992px) {
     .white-card {
         display: flex;
-        flex-direction: row-reverse;    }
+        flex-direction: row-reverse;    
+    }
 }
 
 .black-card {
@@ -166,7 +165,7 @@
     font-size: 15px;
     font-weight: bold;
     line-height: 1.7;
-    color: var(--color-month-title);
+    color: var(--color-month-title-on-light);
 }
 .black-card-month {
     color: var(--color-month-title-on-dark);
@@ -184,7 +183,7 @@
 .card-horizontal-line {
     margin: 15px 0;
     height: 1px;
-    background-color: rgba(97, 100, 112, 0.3);
+    background-color: var(--color-month-title-on-light);
 }
 
 .our-history-card-text {
