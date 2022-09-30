@@ -39,5 +39,7 @@
             document.querySelector('.our-history-tab-content').classList.add('is-active')
         }
     }
+    tabsActivate()
     window.addEventListener('resize', tabsActivate)
+
 })();
