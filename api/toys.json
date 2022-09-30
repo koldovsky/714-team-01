@@ -1,0 +1,23 @@
+[
+  {
+    "id":1,
+    "title":"Chiken toy",
+    "img":"img/chicken_toy.jpg",
+    "description":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+    "price":10.99
+  },
+  {
+    "id":2,
+    "title":"Hot-dog toy",
+    "img":"img/hotdog_toy.jpg",
+    "description":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+    "price":9.99
+  },
+  {
+    "id":3,
+    "title":"Egg toy",
+    "img":"img/egg_toy.jpg",
+    "description":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+    "price":8.99
+  }
+]

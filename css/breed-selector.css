@@ -4,6 +4,7 @@
 
 .huski__breeds{
     height: 450px;
+    padding: 0 auto;
 }
 
 .breed-selector-card {
@@ -61,7 +62,10 @@
 .champions{
     color: var(--color-text-light);
     background-color:var(--color-dark);
-    padding-top: 480px;
+    padding-top: 540px;
+}
+.champions-wrap {
+    padding-bottom: 20px;
 }
 .haski__champions-header {
     font-size: 40px;
@@ -77,7 +81,7 @@
 .huski__champions-preview>p {
     color: var(--color-text-on-dark);
     font-weight: 400;
-    line-height: 26px;
+    line-height: 26px;    
 }
 
 .huski__champions-preview-button {
@@ -99,7 +103,7 @@
 }
 .huski__champions-card{
     text-align: center;  
-    width: 300px;  
+    width: 257px;  
     padding-top:20px;
     margin: 20px auto;
 }
@@ -107,6 +111,12 @@
     margin: 20px auto;
     font-size: 24px;
     font-weight: 700;
+}
+
+@media (min-width: 500px){
+    .champions{
+        padding-top: 500px;
+    }
 }
 
 @media (min-width: 768px){
