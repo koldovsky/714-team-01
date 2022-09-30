@@ -15,15 +15,59 @@
 
     <header class="header">
         <div class="container">
-            <div class="header__nav">
+            <div class="header__nav">        
                 <div class="nav__image-container">
                     <a href="#"><img src="img/logo/husky-logo.svg" alt="Husky Logo" width="105"></a>
                 </div>
             </div>
         </div>
         
+        <nav class="header__nav">
+            <div class="menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+                  
+            <div class="menu-overlay">
+                  
+                <div class="nav">
+                    <div class="logo-overlay">
+                        <a href="#"><img src="img/logo/husky-logo.svg" alt="Husky Logo" width="105"></a>
+                    </div>
+    
+                    <nav class="nav__items">
+                        <p class="nav__category"></p>
+                        <a class="nav__item" href="#about">About us</a>
+                        <a class="nav__item" href="#dogs">Available puppies</a>
+                        <a class="nav__item" href="#gallery">Gallery</a>
+                        <a class="nav__item" href="#testimonials">Testimonials</a>
+                        <a class="nav__item" href="#contacts">Contact us</a>
+                    </nav>
+                    <div class="nav__icons-container_mobile">
+                        <div nav__icons-container_links>
+                            <a href="https://www.facebook.com/" target="_blank" class="social_icon"><img
+                            src="img/icons/facebook-logo.svg" width="30" height="30" alt="Facebook"
+                            onmouseover="this.src='img/icons/facebook-logo-hover.svg'; this.width=30;this.height=30;"
+                            onmouseout="this.src='img/icons/facebook-logo.svg'; this.width=30;this.height=30;"></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="social_icon"><img
+                            src="img/icons/instagram-logo.svg" width="30" height="30" alt="Instagram"
+                            onmouseover="this.src='img/icons/instagram-logo-hover.svg'; this.width=30;this.height=30;"
+                            onmouseout="this.src='img/icons/instagram-logo.svg'; this.width=30;this.height=30;"></a>
+                    <a href="https://www.youtube.com/" target="_blank" class="social_icon"><img
+                            src="img/icons/youtube-logo.svg" width="30" height="30" alt="Youtube"
+                            onmouseover="this.src='img/icons/youtube-logo-hover.svg'; this.width=30;this.height=30;"
+                            onmouseout="this.src='img/icons/youtube-logo.svg'; this.width=30;this.height=30;"></a>
+                        </div>
+                    </div>
+                </div>
+                  
+                <div class="menu-overlay__image">
+                    <img src="img/siberian-husky-puppy.jpg" alt="Husky puppy" />
+                </div>
+            </div>
+        </nav>    
     </header>
-
 
     <main>
         <div class="header__banner">
@@ -56,7 +100,7 @@
                 </div>
             </div>
         </section>
-        <section class="champions ">
+        <section class="champions " id="champions">
             <div class="champions-wrap container">
                 <div class="huski__champions-preview">
                     <h2 class="haski__champions-header">Champions</h2>
