@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ff8159f-9452-4da2-a6c0-076e54c95cd8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/toys.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/buy-a-toy-for-your-puppy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/buy-a-toy-for-your-puppy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/buy-a-toy-for-your-puppy.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/buy-a-toy-for-your-puppy.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
