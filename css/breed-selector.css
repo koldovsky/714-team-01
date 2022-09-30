@@ -61,7 +61,7 @@
 .champions{
     color: var(--color-text-light);
     background-color:var(--color-dark);
-    padding-top: 480px;
+    padding-top: 540px;
 }
 .haski__champions-header {
     font-size: 40px;
@@ -107,6 +107,12 @@
     margin: 20px auto;
     font-size: 24px;
     font-weight: 700;
+}
+
+@media (min-width: 500px){
+    .champions{
+        padding-top: 500px;
+    }
 }
 
 @media (min-width: 768px){
