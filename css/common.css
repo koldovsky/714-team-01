@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 :root {
@@ -27,6 +26,7 @@
     --outline-form-color: rgba(34, 34, 34, 0.12);
     --form-bg-color: #F7F7F7;
     --outline-active-color:#3B99FC;
+    --color-bg-buttons-light: rgba(31, 26, 26, 0.22);
     scroll-behavior: smooth;
 }
 
