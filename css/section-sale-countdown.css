@@ -1,0 +1,108 @@
+.sale-countdown {
+    background-color: var(--form-bg-color);
+        padding-bottom: 40px;
+}
+.sale-countdown .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sale-countdown-header {
+    color: var(--color-main);
+    text-align: center;
+    margin-top: -60px;
+}
+.sale-countdown-header-text {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.sale-countdown .line-under-heading {
+    background-color: var(--color-accent);
+    margin: auto;
+    margin-bottom: 30px;
+}
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .countdown {
+        width: 80%;
+    }
+}
+@media (min-width: 1024px) {
+    .countdown {
+        width: 60%;
+    }
+}
+.sale-days-box,
+.sale-hours-box,
+.sale-minutes-box,
+.sale-seconds-box {
+    max-width: 22%;
+    border: 1px solid var(--color-accent);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+@media (min-width: 768px) {
+    .sale-days-box,
+    .sale-hours-box,
+    .sale-minutes-box,
+    .sale-seconds-box {
+        padding: 20px 0;
+    }
+}
+.sale-days,
+.sale-hours,
+.sale-minutes,
+.sale-seconds {
+    color: var(--color-dark);
+    font-size: 32px;
+    font-weight: 700;
+}
+@media (min-width: 480px) {
+    .sale-days,
+    .sale-hours,
+    .sale-minutes,
+    .sale-seconds {
+        font-size: 36px;
+    }
+}
+.sale-countdown-time-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.65;
+    color: var(--color-text-on-dark);
+}
+@media (min-width: 480px) {
+    .sale-countdown-time-text {
+        font-size: 16px;
+    }
+}
+
+.sale-countdown-text {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.sale-countdown-btn-box {
+    display: flex;
+    justify-content: center;
+}
+.sale-countdown-btn {
+    text-decoration: none;
+    background-color: var(--color-main);
+    color: var(--color-dark);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 2px;
+}
+.sale-countdown-btn:hover {
+    background-color: var(--color-accent);
+}
