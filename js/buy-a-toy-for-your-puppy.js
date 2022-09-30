@@ -18,7 +18,7 @@
                   Info
                 </button>
                 <button class="toy-card__buttons-buy button button-card">
-                  Buy - ${toy.price}
+                  Buy - ${(toy.price * rate).toFixed(2)}
                 </button>
               </div>
             </article>`;
