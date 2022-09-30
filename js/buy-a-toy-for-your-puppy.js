@@ -1,7 +1,28 @@
-(async function() {
+(function() {
 
-    const response = await fetch ('api/toys.json');
-    const toys = await response.json() ;
+    const toys = [
+        {
+            id: 1,
+            title: "Chiken toy",
+            img: "img/chicken_toy.jpg",
+            description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+            price: 10.99
+        },
+        {
+            id: 2,
+            title: "Hot-dog toy",
+            img: "img/hotdog_toy.jpg",
+            description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+            price: 9.99
+        },
+        {
+            id: 3,
+            title: "Egg toy",
+            img: "img/egg_toy.jpg",
+            description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+            price: 8.99
+        }
+    ];
 
     function renderToys(toys) {
         const toysContainer = document.querySelector('.toys-for-puppies-list');
@@ -18,7 +39,7 @@
                   Info
                 </button>
                 <button class="toy-card__buttons-buy button button-card">
-                  Buy - ${(toy.price * rate).toFixed(2)}
+                  Buy - ${toy.price}
                 </button>
               </div>
             </article>`;
