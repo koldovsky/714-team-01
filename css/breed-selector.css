@@ -4,6 +4,7 @@
 
 .huski__breeds{
     height: 450px;
+    padding: 0 auto;
 }
 
 .breed-selector-card {
@@ -63,6 +64,9 @@
     background-color:var(--color-dark);
     padding-top: 540px;
 }
+.champions-wrap {
+    padding-bottom: 20px;
+}
 .haski__champions-header {
     font-size: 40px;
     line-height: 52px;
@@ -99,7 +103,7 @@
 }
 .huski__champions-card{
     text-align: center;  
-    width: 300px;  
+    width: 100%;  
     padding-top:20px;
     margin: 20px auto;
 }
