@@ -56,12 +56,14 @@
 
 .toy-card__buttons-info:hover{
     background: var(--color-bg-dark);
+    cursor: pointer;
     color: white;
 }
 
 .toy-card__buttons-buy:hover{
     background-color: var(--color-accent);
     color: var(--color-text-light);
+    cursor: pointer;
     transition: .3s linear;
     transform: scale(1.0)
 }
