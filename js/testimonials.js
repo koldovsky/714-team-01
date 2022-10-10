@@ -1,20 +1,26 @@
+let once = false;
+
 testimonials.onclick = function() {
-    const start = Date.now();
-    const screenWidth = window.screen.width * 3;
+    if (!once) {
+        const audio = new Audio();
+        audio.src = './sounds/lay-sobaki.mp3'; 
 
-    const audio = new Audio(); 
-    audio.src = '../sounds/lay-sobaki.mp3'; 
-    audio.autoplay = true;
+        audio.autoplay = true;
+        once = true;
 
-    const timer = setInterval(function() {
-      const timePassed = Date.now() - start;
+        const start = Date.now();
+        const screenWidth = window.screen.width * 3;
 
-      train.style.left = (timePassed - 500) / 3 + 'px';
+        const timer = setInterval(function() {
+        const timePassed = Date.now() - start;
 
-      if (timePassed > screenWidth) {
-        clearInterval(timer);
-        train.remove();
-      }
+        train.style.left = (timePassed - 500) / 3 + 'px';
 
-    }, 20);
+        if (timePassed > screenWidth) {
+            clearInterval(timer);
+            train.remove();
+        }
+
+        }, 20);
+    }
 }
