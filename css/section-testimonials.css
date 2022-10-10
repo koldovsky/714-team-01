@@ -76,6 +76,14 @@
     margin-bottom: 50px;
 }
 
+.husky__run__testimonials {
+    position: absolute;
+    cursor: pointer;
+    max-height: 120px;
+    left: -240px;
+    margin-top: -130px;
+}
+
 
 @media (min-width: 320px) {
     
