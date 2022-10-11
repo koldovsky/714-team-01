@@ -34,20 +34,28 @@
 
     renderToys(toys);
 
-    let modal = document.getElementById('toysModal');
-    let btn = document.getElementById("infoButton");
-    let span = document.getElementsByClassName("toys-close")[0];
-    btn.onclick = function (){
-        modal.style.display = "block";
-    }
-    span.onclick = function (){
-        modal.style.display= "none";
+    let modal = document.querySelectorAll("#toysModal");
+    let btn = document.querySelectorAll("#infoButton");
+    let span = document.querySelectorAll(".toys-close");
+
+
+
+    for(let i=0; i<btn.length; i++){
+        btn[i].onclick = function (){
+            modal[i].style.display = "block";
+        }
+        span[i].onclick = function (){
+            modal[i].style.display= "none";
+        }
     }
 
     window.onclick=function (event){
-        if(event.target===modal){
-            modal.style.display="none";
+        for(let i=0; i<modal.length; i++){
+            if(event.target===modal[i]){
+                modal[i].style.display="none";
+            }
         }
+
     }
 })();
 
