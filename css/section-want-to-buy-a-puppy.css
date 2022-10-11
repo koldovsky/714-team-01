@@ -14,16 +14,16 @@
 
 .section-want-to-buy-a-puppy { 
     max-width: 570px;
+    min-width: 300px;
     min-height: 452px;
     background-color: var(--color-bg-light);
     display: flex;
     justify-content:center;
     flex-direction: column;
-    margin: 50px;
 }
 
 .title__want-to-buy-a-puppy {
-    font-size: 68px;
+    font-size: 50px;
     font-weight: 900;
     overflow-wrap: break-word;
     text-align: center;
