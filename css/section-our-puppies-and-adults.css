@@ -1,9 +1,9 @@
 .our-puppies-and-adults {
-    padding-top: 100px;
-    padding-bottom: 110px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
-.our-puppies-and-adults__header{
+.our-puppies-and-adults__header {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -11,19 +11,33 @@
     line-height: 1.65;
 }
 
+.our-puppies-and-adults__title {
+    font-size: 34px;
+    letter-spacing: -.03em;
+}
+
+.our-puppies-and-adults__liner-under-heading {
+    margin: 15px 0;
+    width: 6%;
+    height: 3px;
+    background-color: var(--color-main);
+}
+
 .our-puppies-and-adults__text {
     font-size: 16px;
     color: var(--color-text-on-light);
+    letter-spacing: .03em;
 }
 
 .our-puppies-and-adults__image-text {
-    font-size: 24px;
+    font-size: 22px;
     color: var(--color-text-on-light);
     margin-top: 20px;
 }
 
 .our-puppies-and-adults__carousel {
     position: relative;
+    margin-top: 45px;
 }
 
 .our-puppies-and-adults__carousel-slides {
@@ -32,48 +46,52 @@
 
 .our-puppies-and-adults__cart-containar {
     padding: 0 15px;
+    width: 100%;
 }
 
 .our-puppies-and-adults__image {
-    /* display: block; */
+    display: block;
     width: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
 }
 
 .our-puppies-and-adults__button {
     position: absolute;
+    z-index: 10;
     top: 50%;
     background: transparent;
     border: 0;
+    background: var(--color-secondary);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
     cursor: pointer;
+    transition: opacity .2s ease-in;
+}
 
-    width: 30px;
-    height: 30px;
+.our-puppies-and-adults__button>svg {
+    width: 12px;
+    height: 12px;
+    opacity: .85;
 }
 
 .btn-prev {
-    left: -30px;
+    left: 0px;
     transform: rotate(180deg);
-    fill: var(--color-secondary);
+    opacity: .85;
+    padding-top: 2px;
 }
 
 .btn-next {
-    right: -30px;
-    fill: var(--color-secondary);
-}
-
-.btn-prev:hover,
-.btn-next:hover {
-    fill: var(--color-date-title-hover);
+    right: 0px;
+    opacity: .85;
+    padding-top: 2px;
 }
 
 .our-puppies-and-adults__indicators {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    padding: 20px 0;
+    margin: 15px 0 30px;
 }
 
 .indicators-dot {
@@ -87,18 +105,87 @@
     cursor: pointer;
 }
 
+.btn-prev:hover,
+.btn-next:hover,
 .indicators-dot:hover {
-     /* background: var(--color-secondary); */
-     opacity: 1;
+    opacity: 1;
 }
 
-.indicators-dot:active {
-    background: var(--color-secondary);
+.indicators-dot:focus {
     opacity: .75;
 }
 
-.current-slide {
-    background: var(--color-secondary);
-    opacity: .75;
+@media (min-width: 768px) {
+
+    .our-puppies-and-adults {
+        padding-top: 95px;
+        padding-bottom: 100px;
+    }
+
+    .our-puppies-and-adults__title {
+        font-size: 37px;
+    }
+
+    .our-puppies-and-adults__image-text {
+        font-size: 23px;
+    }
+
+    .our-puppies-and-adults__button {
+        width: 32px;
+        height: 32px;
+    }
+
+    .our-puppies-and-adults__button>svg {
+        width: 20px;
+        height: 20px;
+    }
 }
 
+@media (min-width: 991px) {
+
+    .our-puppies-and-adults {
+        padding-top: 100px;
+        padding-bottom: 110px;
+    }
+
+    .our-puppies-and-adults__title {
+        font-size: 40px;
+    }
+
+    .our-puppies-and-adults__liner-under-heading {
+        width: 3%;
+    }
+
+    .our-puppies-and-adults__carousel {
+        margin-top: 50px;
+    }
+
+    .our-puppies-and-adults__image-text {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1199px) {
+
+    .our-puppies-and-adults__button {
+        background: transparent;
+    }
+
+    .our-puppies-and-adults__button>svg {
+        width: 30px;
+        height: 30px;
+        fill: var(--color-secondary);
+    }
+
+    .btn-prev {
+        left: -15px;
+        transform: rotate(180deg);
+        width: 30px;
+    }
+
+    .btn-next {
+        right: -15px;
+        bottom: -25px;
+        width: 30px;
+    }
+}
