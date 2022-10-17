@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: column;
 }
-.lightbox {
+.gallery_content {
     margin-top: 30px;
     margin-right: 15px;
     margin-left: 15px;
@@ -53,4 +53,20 @@
 .grid img {
     width: 100%;
     height: 100%;
+    cursor: pointer;
      }
+
+#lightbox {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+
+}
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
